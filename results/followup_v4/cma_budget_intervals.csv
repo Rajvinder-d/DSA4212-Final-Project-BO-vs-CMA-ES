@@ -1,0 +1,25 @@
+block,method,handler,orientation,design_groups,estimate,low,high,interpretation
+cma_ball,cma_diag,resample,-1,20,-0.508973600930279,-0.5579161736837452,-0.4623505712322409,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_ball,cma_diag,resample,404,20,-0.4014454366920674,-0.4529325247886987,-0.352110820765266,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_ball,cma_diag,resample,505,20,-0.3955548989565162,-0.43870464695118333,-0.3500338793454782,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_ball,cma_diag,resample,606,20,-0.37310277398210606,-0.41831283691323545,-0.3270763843685326,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_ball,cma_full,resample,-1,20,-0.4820605987567979,-0.5366203143516034,-0.42756121676090403,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_ball,cma_full,resample,404,20,-0.4882021051460429,-0.5371444972127785,-0.4396040913562731,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_ball,cma_full,resample,505,20,-0.49016853834160734,-0.5388280389403981,-0.44331666356485133,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_ball,cma_full,resample,606,20,-0.5123433119767202,-0.5581794548076995,-0.4616408902006989,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_diag,project,-1,20,-0.4589051036320305,-0.5500531337175075,-0.36995068685886806,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_diag,project,404,20,-0.3779237801951608,-0.44232693431481956,-0.31398439411527496,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_diag,project,505,20,-0.3811607081209089,-0.45570506444875364,-0.30540302544953396,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_diag,project,606,20,-0.35255505706464163,-0.4158470438830024,-0.2927135667910393,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_diag,resample,-1,20,-0.42991438931956205,-0.49940841863359414,-0.3579867873704182,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_diag,resample,404,20,-0.38945203249405647,-0.45981281095057436,-0.3222592153918829,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_diag,resample,505,20,-0.3567188121573984,-0.4261023313680523,-0.2937971992200898,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_diag,resample,606,20,-0.32661821845199557,-0.39915913288522964,-0.2654648183138383,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_full,project,-1,20,-0.465837190070153,-0.5541562015348724,-0.3787686092823874,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_full,project,404,20,-0.4651443834715919,-0.5662911080619643,-0.3721907711405412,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_full,project,505,20,-0.48226609339986604,-0.5804484650294187,-0.387626219351581,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_full,project,606,20,-0.4599161103034275,-0.5392466367678972,-0.3830245951068574,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_full,resample,-1,20,-0.46258021379663405,-0.5605205990329905,-0.36498263497008765,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_full,resample,404,20,-0.5143216484927157,-0.6145477556248149,-0.41888167581489605,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_full,resample,505,20,-0.48253141065358635,-0.5851425973334898,-0.386280908974421,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_box,cma_full,resample,606,20,-0.4620502502584706,-0.5527516600568675,-0.37370583506451843,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4

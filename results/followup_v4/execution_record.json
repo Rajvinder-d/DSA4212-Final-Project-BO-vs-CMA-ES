@@ -1,0 +1,459 @@
+{
+  "status": {
+    "status": "complete",
+    "stage": "finished",
+    "pid": 77037,
+    "started_utc": "2026-11-11T12:48:02.889116+00:00",
+    "provenance_id": "a700502d0a1901eb48371e201659d8d9cb69e82b5beb598be3c881cce9fc3d42",
+    "previous_compute_s": 0,
+    "compute_elapsed_s": 8736.047450291982,
+    "allowance_s": 14400,
+    "planned_confirmation_runs": 3160,
+    "updated_utc": "2026-11-11T15:15:13.908997+00:00",
+    "stage_planned": 3160,
+    "stage_completed": 3160,
+    "current_job": {
+      "block": "quadratic_bound",
+      "objective": "quadratic",
+      "condition": 10000,
+      "domain": "ball",
+      "method": "bo_ard_pool",
+      "handler": "none",
+      "initial_design_seed": 29,
+      "search_replicate": 0,
+      "search_seed": 1111816696,
+      "rotation_seed": 606,
+      "budget": 100,
+      "n_init": 20,
+      "checkpoints": [
+        100
+      ],
+      "lengthscale_upper": 20.0,
+      "corrected": true,
+      "stage": "confirmation"
+    },
+    "stage_attempted": 3160,
+    "estimated_remaining_s": 0,
+    "science_finished_utc": "2026-11-11T15:13:39.037624+00:00",
+    "exit_code": 0,
+    "science_status": "experiments_complete",
+    "analysis_audit": {
+      "status": "complete",
+      "complete_runs": 3160,
+      "search_calls": 796000,
+      "assessment_calls": 10560,
+      "outputs_verified": 43,
+      "notebook_sha256": "8b134344f2b4b29784822fa53ca7c3b7349e8372db05c3fa1f849d10fd18cf65",
+      "executed_cells": 9,
+      "preserved_files": 9305,
+      "visual_review": "pending human/agent inspection after execution"
+    },
+    "finished_utc": "2026-11-11T15:15:13.908879+00:00"
+  },
+  "timing_gate": {
+    "raw_confirmation_s": 8781.782938760136,
+    "projected_confirmation_s": 10977.22867345017,
+    "remaining_allowance_s": 14139.543837875011,
+    "fits_allowance": true,
+    "headroom": 1.25,
+    "collection_overhead_per_job_s": 0.02897722447071121,
+    "estimates": [
+      {
+        "key": [
+          "battery",
+          "ball",
+          "bo_iso",
+          5.0,
+          "none"
+        ],
+        "seconds": 25.397322078946875
+      },
+      {
+        "key": [
+          "battery",
+          "ball",
+          "bo_ard",
+          5.0,
+          "none"
+        ],
+        "seconds": 24.162044912007534
+      },
+      {
+        "key": [
+          "battery",
+          "ball",
+          "bo_iso_pool",
+          5.0,
+          "none"
+        ],
+        "seconds": 2.3659518079495885
+      },
+      {
+        "key": [
+          "battery",
+          "ball",
+          "bo_ard_pool",
+          5.0,
+          "none"
+        ],
+        "seconds": 4.263198140963343
+      },
+      {
+        "key": [
+          "battery",
+          "ball",
+          "cma_full",
+          5.0,
+          "resample"
+        ],
+        "seconds": 0.5147547664657597
+      },
+      {
+        "key": [
+          "battery",
+          "ball",
+          "cma_diag",
+          5.0,
+          "resample"
+        ],
+        "seconds": 0.5248543704931055
+      },
+      {
+        "key": [
+          "battery",
+          "box",
+          "cma_full",
+          5.0,
+          "resample"
+        ],
+        "seconds": 0.5137109534827888
+      },
+      {
+        "key": [
+          "battery",
+          "box",
+          "cma_full",
+          5.0,
+          "project"
+        ],
+        "seconds": 0.5147156414879848
+      },
+      {
+        "key": [
+          "battery",
+          "box",
+          "cma_diag",
+          5.0,
+          "resample"
+        ],
+        "seconds": 0.514860223962589
+      },
+      {
+        "key": [
+          "battery",
+          "box",
+          "cma_diag",
+          5.0,
+          "project"
+        ],
+        "seconds": 0.5123547664681811
+      },
+      {
+        "key": [
+          "quadratic",
+          "ball",
+          "bo_iso",
+          5.0,
+          "none"
+        ],
+        "seconds": 23.15461926600094
+      },
+      {
+        "key": [
+          "quadratic",
+          "ball",
+          "bo_ard",
+          5.0,
+          "none"
+        ],
+        "seconds": 25.542847140967044
+      },
+      {
+        "key": [
+          "quadratic",
+          "ball",
+          "bo_iso_pool",
+          5.0,
+          "none"
+        ],
+        "seconds": 2.828641099489889
+      },
+      {
+        "key": [
+          "quadratic",
+          "ball",
+          "bo_ard_pool",
+          5.0,
+          "none"
+        ],
+        "seconds": 3.8674744539441437
+      },
+      {
+        "key": [
+          "battery",
+          "ball",
+          "bo_iso_pool",
+          20.0,
+          "none"
+        ],
+        "seconds": 2.3793855789537903
+      },
+      {
+        "key": [
+          "battery",
+          "ball",
+          "bo_ard_pool",
+          20.0,
+          "none"
+        ],
+        "seconds": 3.656811516482978
+      },
+      {
+        "key": [
+          "quadratic",
+          "ball",
+          "bo_iso_pool",
+          20.0,
+          "none"
+        ],
+        "seconds": 2.6710283704871673
+      },
+      {
+        "key": [
+          "quadratic",
+          "ball",
+          "bo_ard_pool",
+          20.0,
+          "none"
+        ],
+        "seconds": 4.553680223949616
+      }
+    ],
+    "policy": "Full fixed grid only; gate failure starts no confirmation jobs"
+  },
+  "provenance": {
+    "config": {
+      "id": "rotation-followup-v4",
+      "protocol": "configs/protocols/rotation_battery_v1.json",
+      "confirmation_seeds": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "supporting_seeds": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "development_seeds": [
+        0,
+        1
+      ],
+      "rotations": [
+        null,
+        404,
+        505,
+        606
+      ],
+      "development_rotation": 101,
+      "namespace": 4107,
+      "n_init": 20,
+      "primary_calls": 100,
+      "cma_calls": 300,
+      "cma_search_replicates": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "condition": 10000,
+      "lengthscale_lower": 0.03,
+      "lengthscale_upper": 5.0,
+      "alternate_upper": 20.0,
+      "pool": {
+        "interior": 2048,
+        "surface": 2048,
+        "chunk_size": 256
+      },
+      "replay_checkpoints": [
+        20,
+        40,
+        80
+      ],
+      "replay_query_seed": 4930,
+      "replay_pool_seed": 4941,
+      "bootstrap_resamples": 5000,
+      "bootstrap_seed": 4129,
+      "battery_targets_rmse_v": [
+        0.006,
+        0.01
+      ],
+      "max_compute_seconds": 14400,
+      "timing_headroom": 1.25
+    },
+    "environment": {
+      "ready": true,
+      "python": "3.13.6",
+      "packages": {
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "pandas": "3.1.1",
+        "torch": "2.15.0",
+        "botorch": "0.18.1",
+        "gpytorch": "1.15.2",
+        "cma": "4.5.0",
+        "openpyxl": "3.1.5"
+      },
+      "blockers": [],
+      "experiments_executed": false
+    },
+    "source_sha256": {
+      "scripts/run_v4.py": "5ebe285c1858d03170da249400d8e7924ba186d92b9419c3b295513ff1c95ad6",
+      "src/bo_vs_es/__init__.py": "1b02cfbe2e361c127e6a585f3144feed3cd5bfef37e5dc6b13fcc5ad64c7b516",
+      "src/bo_vs_es/diagnostics/__init__.py": "a3dd75ad2e51b350faa4deea98c970ff602b2f563bf4c2a4ea091c3fdb1556e5",
+      "src/bo_vs_es/diagnostics/core.py": "33d6776a2c3cc33f48fed0c98a09b9e53cdc575ec36f2868764c9050a95102b4",
+      "src/bo_vs_es/diagnostics/replay.py": "d5fbd7aaf0b651e374bc7cbff5e2e70695c9627788a5f3bf4cfaf3e38f6b5600",
+      "src/bo_vs_es/experiments/__init__.py": "d2c57ca1c2bed3e5802a7e8252ca90653905aa7026c561769dfa8580814effb6",
+      "src/bo_vs_es/experiments/runner.py": "f5b52ad8ee84c87f4b1d3eaee56a02970806752701ab9120015daa2e9f01c4a4",
+      "src/bo_vs_es/followup.py": "641c121610e83e46a2f1d52bedf6b8633eb081d27648c50bf1d45cb954f9ac62",
+      "src/bo_vs_es/followup_v4.py": "304d38a102a0b70b8d2a4f320e74b7e23cd0f0acc8236cf092438b6019b59568",
+      "src/bo_vs_es/objectives/__init__.py": "21e7b9f170f6e7f466a727db70329e2a788564c56a7fffc268a5990adab01cb8",
+      "src/bo_vs_es/objectives/data.py": "67237c70c7ec66f60dbdf99740ac8f44dcd998521f9b9b0c519d0c32f9f39fbc",
+      "src/bo_vs_es/objectives/models.py": "9e67a345bf8af385064b0b689e1990000518d82bd59b3bd734bae4d69efd4297",
+      "src/bo_vs_es/optimisers/__init__.py": "94fd46e4c50077bd68986b13b194098b2d32add9969a596952de8d06dcd6e466",
+      "src/bo_vs_es/optimisers/adapters.py": "9918531efb473bd439eed9cb11d97ef90307370a78056558e263f0898cb273ed"
+    },
+    "protocol_sha256": "889dec310448d29cb1f881806eb50a2eea1eb4302631fb8fd07cb9012c86df2d",
+    "data_manifest": {
+      "prepared_utc": "2026-11-09T13:56:02.247443+00:00",
+      "sources": [
+        {
+          "file": "SP2_25C_DST.zip",
+          "url": "https://web.calce.umd.edu/batteries/data/SP2_25C_DST.zip",
+          "sha256": "3d3a90a67574c336eca9d097a5f139aaad70e7fa3106078079da9cd11d1b3661",
+          "bytes": 3189603
+        },
+        {
+          "file": "SP2_25C_FUDS.zip",
+          "url": "https://web.calce.umd.edu/batteries/data/SP2_25C_FUDS.zip",
+          "sha256": "e2ce8e4626c4263cb8758c9488cec66d31c04a9d11465c14e668428cead1e053",
+          "bytes": 3426587
+        },
+        {
+          "file": "SP3_25C_LC_OCV_11_16_2015.zip",
+          "url": "https://web.calce.umd.edu/batteries/data/SP3_25C_LC_OCV_11_16_2015.zip",
+          "sha256": "0bae869bba13c2d87faa3ae948557c47e5b4be96b93ee45970e571bfc63d58b7",
+          "bytes": 11486330
+        }
+      ],
+      "workbooks": {
+        "dst80": {
+          "workbook": "11_05_2015_SP20-2_DST_80SOC.xls",
+          "sheets": [
+            "Channel_1-008"
+          ],
+          "input_rows": 12561,
+          "output_rows": 12561,
+          "overlapping_records_removed": 0,
+          "repeated_timestamps_keep_last": 0
+        },
+        "fuds80": {
+          "workbook": "11_06_2015_SP20-2_FUDS_80SOC.xls",
+          "sheets": [
+            "Channel_1-008"
+          ],
+          "input_rows": 13681,
+          "output_rows": 13681,
+          "overlapping_records_removed": 0,
+          "repeated_timestamps_keep_last": 0
+        },
+        "fuds50": {
+          "workbook": "11_09_2015_SP20-2_FUDS_50SOC.xls",
+          "sheets": [
+            "Channel_1-008"
+          ],
+          "input_rows": 9308,
+          "output_rows": 9308,
+          "overlapping_records_removed": 0,
+          "repeated_timestamps_keep_last": 0
+        },
+        "ocv": {
+          "workbook": "11_16_2015_low current OCV test_SP20-3.xls",
+          "sheets": [
+            "Channel_1-004_1",
+            "Channel_1-004_2"
+          ],
+          "input_rows": 90915,
+          "output_rows": 90914,
+          "overlapping_records_removed": 1,
+          "repeated_timestamps_keep_last": 0
+        }
+      },
+      "ocv_cell": "SP20-3",
+      "dynamic_cell": "SP20-2",
+      "ocv_branch_capacity_ah": {
+        "discharge_ah": 2.080150548742833,
+        "charge_ah": 2.01938956853308
+      },
+      "calibration_rest_offset_v": 0.012155018453011923,
+      "nominal_capacity_ah": 2.0,
+      "window_s": 3600,
+      "interval_current": "left endpoint; discharge positive",
+      "output_sha256": {
+        "dst80.csv": "71a9efd866301cf1090bbdc8ca0ae7475050fc1ad24c4895a9e85d5ebaa436b2",
+        "fuds50.csv": "dee9cb1b25625da9c71ab781238c4a8848caa1f72fa3e0948ded051b66e315f2",
+        "fuds80.csv": "4f1de37e5a4ad631a46655f784c975703fa5fdddaa319d2fa3abe5174e5d11ae",
+        "ocv.csv": "a984761dd01930e50415f6e96e4dc5b0b99338bdd3937777a73458013d7786e3"
+      }
+    },
+    "dependency_lock_sha256": "eacca10987324e71ba63f4fbf461c7c572ed32b8f36a8edab7b8817b21c8873f",
+    "hardware": {
+      "machine": "arm64",
+      "platform": "macOS-14.8.4-arm64-arm-64bit-Mach-O"
+    },
+    "execution": "agent",
+    "torch_threads": 1
+  },
+  "development": {
+    "runs": 36,
+    "search_calls": 6000,
+    "assessment_calls": 72,
+    "replays": 72
+  },
+  "note": "Original completed scientific invocation; its embedded analysis audit is historical. See execution_audit.json for the latest presentation audit."
+}

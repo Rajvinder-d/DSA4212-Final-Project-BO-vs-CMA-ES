@@ -1,0 +1,43 @@
+{
+  "collection_sha256": "9081088b771c813e1c02fde714ac9bd6d8939e53ea2eaab65592aeed916f0f79",
+  "analysis_sha256": "60271aeb1e1bc839f3b9481aac2629b476dbad316659daf0970d18f9df04728b",
+  "contrast_source_sha256": "f4ce2c4c2dc56bd9140f3ed971f4c69a7f1b7235ba112861a17e3bb4023e33d4",
+  "executor": "v4-aligned-v1",
+  "alignment_source_sha256": "b3534e93b6e4205dce27bff5a646e987e8fd790d459992cc607234702cddfaaf",
+  "planned_runs": 280,
+  "completed_runs": 279,
+  "complete_design_groups": 19,
+  "excluded_design_groups": 1,
+  "all_recorded_search_calls": 83866,
+  "objective_setup_calls": 0,
+  "total_recorded_invocation_s": 17724.6667847,
+  "plots": {
+    "computation_backend": "numpy",
+    "matplotlib": "3.11.2",
+    "design_groups": 19,
+    "files": [
+      "quality_and_time.png",
+      "handler_contrast.png"
+    ],
+    "status": "written",
+    "source_sha256": "9a98375762729aa78a7e3579ca042fd7b80e7e4c01a48628bf078f726bcc3738"
+  },
+  "recorded_assessment_calls": 1116,
+  "attempts_without_assessment_accounting": 0,
+  "status": "partial",
+  "outputs": {
+    "attempts.csv": "59a8f46b6fe66425ba720adf1a7dc337160a8ef1e35f95396aa5da7ee7c9b702",
+    "checkpoints.csv": "f0e2043554b2c8a01705124ee2c84645c944d6ed0ec995d655a6e8fb40b8026e",
+    "contrasts.csv": "40e4c65ac008855c9e4fb4c830561128afdd9f0b01d9a3c9e708d583ead0234e",
+    "coverage.csv": "7672a5b0a4dda9415d193f2741c79fb0ed48fe17326a5daad2e66d05a3758a28",
+    "figure_notes.md": "2debe6ee4b4dc2856506ecf58fcb0c357ccb7f55786d9643f2429884c9376dfd",
+    "handler_contrast.png": "ca7436775af1da13d948cd45a2bf6c9a7db038f4a7febb1fec45522ea4f0fe9e",
+    "incumbents.csv": "081fec0eece81e7edd56bcf2cb8633547e67f8803282f2424c01cd37de4af429",
+    "initial_designs.csv": "233680ae6d8bb9a6efdbcf5c21565550c2a57bb4c62534ccb9e8d342e9433f6d",
+    "quality_and_time.png": "f2c4d51c93fff8a6c5f536e5b38a8576dc2dae53d1026f28378ad6131354d3dc",
+    "run_status.csv": "48b3c4e1781ca6ad5d11125eaef22f673e98a30585e1e6607ced62b6e5c2ece0",
+    "targets.csv": "b7d1bb7621cf6e45b539ab2892ba124898adedcfc855a6e0d05609a79d3658c4",
+    "target_summary.csv": "5bbe94f571f0deb7cfecf11a70fc2b55225b0a43de2f6fe9159aadc1a7113fd3"
+  },
+  "interpretation": "Primary contrast is projection/resampling at 100 calls; other contrasts are secondary. Intervals are pointwise and resample initial designs. Aligned V5 reuses V4 designs and is an exploratory extension, not independent confirmation. Excluded groups may bias comparisons; conditional target times must accompany hit rates and coverage."
+}

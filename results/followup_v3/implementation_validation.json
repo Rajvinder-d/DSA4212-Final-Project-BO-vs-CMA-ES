@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-11-10T14:41:31.509894+00:00",
+  "execution": "agent",
+  "tests_passed": 36,
+  "test_log": "artifacts/followup_operations/tests.log",
+  "v1_source_fingerprint_preserved": true,
+  "v1_notebook_hashes_preserved": true,
+  "notebook05_executed_cells": 4,
+  "notebook05_errors": 0,
+  "notebook05_sha256": "3314a7e172d8797e1798c00a805c8b9e68a8d828f2c7dae134ef2df290e4dc98",
+  "confirmation_status_at_check": "complete",
+  "confirmation_pid": 49076,
+  "confirmation_log": "artifacts/followup_operations/confirmation.log",
+  "live_status": "artifacts/rotation-followup-v3/status.json",
+  "full_study_v1_launched": false,
+  "submission_report_written": false,
+  "student_reproduction_or_understanding_established": false,
+  "confirmation_complete_runs": 885,
+  "checked_date_singapore": "2026-11-11"
+}

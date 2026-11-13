@@ -1,0 +1,401 @@
+initial_design_seed,method,handler,search_replicate,run_id,calls,target_rmse_v,hit,calls_to_target,seconds_to_target,outcome,complete_group
+30,cma_full,project,1,32bb8bcc45c745ae,100,0.01,False,,,not reached within completed budget,True
+30,cma_full,project,1,32bb8bcc45c745ae,100,0.006,False,,,not reached within completed budget,True
+30,cma_full,project,1,32bb8bcc45c745ae,300,0.01,True,103,0.11377219999985755,reached,True
+30,cma_full,project,1,32bb8bcc45c745ae,300,0.006,True,246,0.28425149999975474,reached,True
+30,bo_iso_pool,none,0,cd143d69e74ad9c1-retry1,100,0.01,False,,,not reached within completed budget,True
+30,bo_iso_pool,none,0,cd143d69e74ad9c1-retry1,100,0.006,False,,,not reached within completed budget,True
+30,bo_iso_pool,none,0,cd143d69e74ad9c1-retry1,300,0.01,True,105,7.147142799999983,reached,True
+30,bo_iso_pool,none,0,cd143d69e74ad9c1-retry1,300,0.006,True,190,19.505231699999968,reached,True
+30,cma_full,resample,2,5dd71df18d24a302,100,0.01,False,,,not reached within completed budget,True
+30,cma_full,resample,2,5dd71df18d24a302,100,0.006,False,,,not reached within completed budget,True
+30,cma_full,resample,2,5dd71df18d24a302,300,0.01,True,135,0.17744600000014543,reached,True
+30,cma_full,resample,2,5dd71df18d24a302,300,0.006,True,250,0.3111415000003035,reached,True
+30,bo_iso,none,0,fdc38b381e1ebca5,100,0.01,True,86,46.993696,reached,True
+30,bo_iso,none,0,fdc38b381e1ebca5,100,0.006,False,,,not reached within completed budget,True
+30,bo_iso,none,0,fdc38b381e1ebca5,300,0.01,True,86,46.993696,reached,True
+30,bo_iso,none,0,fdc38b381e1ebca5,300,0.006,True,148,100.3005905,reached,True
+30,cma_full,project,0,64457e48b50a029c,100,0.01,False,,,not reached within completed budget,True
+30,cma_full,project,0,64457e48b50a029c,100,0.006,False,,,not reached within completed budget,True
+30,cma_full,project,0,64457e48b50a029c,300,0.01,True,123,0.12802860000010696,reached,True
+30,cma_full,project,0,64457e48b50a029c,300,0.006,False,,,not reached within completed budget,True
+30,cma_full,project,2,459e9a144cf2f4b1,100,0.01,True,72,0.07309770000028948,reached,True
+30,cma_full,project,2,459e9a144cf2f4b1,100,0.006,False,,,not reached within completed budget,True
+30,cma_full,project,2,459e9a144cf2f4b1,300,0.01,True,72,0.07309770000028948,reached,True
+30,cma_full,project,2,459e9a144cf2f4b1,300,0.006,False,,,not reached within completed budget,True
+30,bo_ard,none,0,2394d4619f649784,100,0.01,True,25,2.7383058000000347,reached,True
+30,bo_ard,none,0,2394d4619f649784,100,0.006,True,76,40.656987800000024,reached,True
+30,bo_ard,none,0,2394d4619f649784,300,0.01,True,25,2.7383058000000347,reached,True
+30,bo_ard,none,0,2394d4619f649784,300,0.006,True,76,40.656987800000024,reached,True
+30,cma_full,resample,0,e9afc792d58762ae,100,0.01,False,,,not reached within completed budget,True
+30,cma_full,resample,0,e9afc792d58762ae,100,0.006,False,,,not reached within completed budget,True
+30,cma_full,resample,0,e9afc792d58762ae,300,0.01,True,113,0.12950969999974404,reached,True
+30,cma_full,resample,0,e9afc792d58762ae,300,0.006,True,246,0.2821697999997923,reached,True
+30,random,none,0,fe3adee4506f4e8c,100,0.01,False,,,not reached within completed budget,True
+30,random,none,0,fe3adee4506f4e8c,100,0.006,False,,,not reached within completed budget,True
+30,random,none,0,fe3adee4506f4e8c,300,0.01,False,,,not reached within completed budget,True
+30,random,none,0,fe3adee4506f4e8c,300,0.006,False,,,not reached within completed budget,True
+30,cma_full,resample,1,7dec8e5737493696,100,0.01,False,,,not reached within completed budget,True
+30,cma_full,resample,1,7dec8e5737493696,100,0.006,False,,,not reached within completed budget,True
+30,cma_full,resample,1,7dec8e5737493696,300,0.01,True,112,0.13059849999990547,reached,True
+30,cma_full,resample,1,7dec8e5737493696,300,0.006,True,210,0.23940140000013344,reached,True
+31,cma_full,project,0,c46304251a9c498c,100,0.01,False,,,not reached within completed budget,True
+31,cma_full,project,0,c46304251a9c498c,100,0.006,False,,,not reached within completed budget,True
+31,cma_full,project,0,c46304251a9c498c,300,0.01,True,107,0.10939839999991818,reached,True
+31,cma_full,project,0,c46304251a9c498c,300,0.006,False,,,not reached within completed budget,True
+31,random,none,0,3c149e3f445450d2,100,0.01,False,,,not reached within completed budget,True
+31,random,none,0,3c149e3f445450d2,100,0.006,False,,,not reached within completed budget,True
+31,random,none,0,3c149e3f445450d2,300,0.01,False,,,not reached within completed budget,True
+31,random,none,0,3c149e3f445450d2,300,0.006,False,,,not reached within completed budget,True
+31,cma_full,project,2,6dd2acca821540a5,100,0.01,True,94,0.09585470000001806,reached,True
+31,cma_full,project,2,6dd2acca821540a5,100,0.006,False,,,not reached within completed budget,True
+31,cma_full,project,2,6dd2acca821540a5,300,0.01,True,94,0.09585470000001806,reached,True
+31,cma_full,project,2,6dd2acca821540a5,300,0.006,False,,,not reached within completed budget,True
+31,cma_full,resample,0,764ec55518222fed,100,0.01,False,,,not reached within completed budget,True
+31,cma_full,resample,0,764ec55518222fed,100,0.006,False,,,not reached within completed budget,True
+31,cma_full,resample,0,764ec55518222fed,300,0.01,True,125,0.14102300000013201,reached,True
+31,cma_full,resample,0,764ec55518222fed,300,0.006,True,239,0.270589100000052,reached,True
+31,cma_full,resample,2,4ff5a7e4b538d781,100,0.01,False,,,not reached within completed budget,True
+31,cma_full,resample,2,4ff5a7e4b538d781,100,0.006,False,,,not reached within completed budget,True
+31,cma_full,resample,2,4ff5a7e4b538d781,300,0.01,True,158,0.1789256000001842,reached,True
+31,cma_full,resample,2,4ff5a7e4b538d781,300,0.006,False,,,not reached within completed budget,True
+31,bo_iso_pool,none,0,434807d1f0e55b10,100,0.01,True,34,0.7884972999995625,reached,True
+31,bo_iso_pool,none,0,434807d1f0e55b10,100,0.006,False,,,not reached within completed budget,True
+31,bo_iso_pool,none,0,434807d1f0e55b10,300,0.01,True,34,0.7884972999995625,reached,True
+31,bo_iso_pool,none,0,434807d1f0e55b10,300,0.006,True,176,15.506866299999729,reached,True
+31,bo_ard,none,0,c52ae3b5feb3afbf,100,0.01,True,39,11.951244999999744,reached,True
+31,bo_ard,none,0,c52ae3b5feb3afbf,100,0.006,True,63,33.267812799999774,reached,True
+31,bo_ard,none,0,c52ae3b5feb3afbf,300,0.01,True,39,11.951244999999744,reached,True
+31,bo_ard,none,0,c52ae3b5feb3afbf,300,0.006,True,63,33.267812799999774,reached,True
+31,cma_full,project,1,88a499340987db91,100,0.01,False,,,not reached within completed budget,True
+31,cma_full,project,1,88a499340987db91,100,0.006,False,,,not reached within completed budget,True
+31,cma_full,project,1,88a499340987db91,300,0.01,True,227,0.24225279999973282,reached,True
+31,cma_full,project,1,88a499340987db91,300,0.006,True,270,0.28872339999998076,reached,True
+31,cma_full,resample,1,f32518bbe9a302ce,100,0.01,False,,,not reached within completed budget,True
+31,cma_full,resample,1,f32518bbe9a302ce,100,0.006,False,,,not reached within completed budget,True
+31,cma_full,resample,1,f32518bbe9a302ce,300,0.01,True,158,0.1900641000001997,reached,True
+31,cma_full,resample,1,f32518bbe9a302ce,300,0.006,False,,,not reached within completed budget,True
+31,bo_iso,none,0,c73f2a6bd5399654,100,0.01,True,34,8.46671300000071,reached,True
+31,bo_iso,none,0,c73f2a6bd5399654,100,0.006,True,95,56.61574920000021,reached,True
+31,bo_iso,none,0,c73f2a6bd5399654,300,0.01,True,34,8.46671300000071,reached,True
+31,bo_iso,none,0,c73f2a6bd5399654,300,0.006,True,95,56.61574920000021,reached,True
+32,bo_ard,none,0,863670f009c78f3f,100,0.01,True,30,5.639429400000154,reached,True
+32,bo_ard,none,0,863670f009c78f3f,100,0.006,True,86,59.68922950000069,reached,True
+32,bo_ard,none,0,863670f009c78f3f,300,0.01,True,30,5.639429400000154,reached,True
+32,bo_ard,none,0,863670f009c78f3f,300,0.006,True,86,59.68922950000069,reached,True
+32,cma_full,resample,1,e84583e00edd4878,100,0.01,True,90,0.10081549999995332,reached,True
+32,cma_full,resample,1,e84583e00edd4878,100,0.006,False,,,not reached within completed budget,True
+32,cma_full,resample,1,e84583e00edd4878,300,0.01,True,90,0.10081549999995332,reached,True
+32,cma_full,resample,1,e84583e00edd4878,300,0.006,True,216,0.24495389999992767,reached,True
+32,cma_full,project,1,66fed0e76f3168ab,100,0.01,True,90,0.09388229999967734,reached,True
+32,cma_full,project,1,66fed0e76f3168ab,100,0.006,False,,,not reached within completed budget,True
+32,cma_full,project,1,66fed0e76f3168ab,300,0.01,True,90,0.09388229999967734,reached,True
+32,cma_full,project,1,66fed0e76f3168ab,300,0.006,True,202,0.2146665000000212,reached,True
+32,cma_full,resample,2,aa427ea334a91341,100,0.01,False,,,not reached within completed budget,True
+32,cma_full,resample,2,aa427ea334a91341,100,0.006,False,,,not reached within completed budget,True
+32,cma_full,resample,2,aa427ea334a91341,300,0.01,True,170,0.19096369999988383,reached,True
+32,cma_full,resample,2,aa427ea334a91341,300,0.006,True,273,0.3061081000005288,reached,True
+32,random,none,0,c532c36968d7f0fb,100,0.01,False,,,not reached within completed budget,True
+32,random,none,0,c532c36968d7f0fb,100,0.006,False,,,not reached within completed budget,True
+32,random,none,0,c532c36968d7f0fb,300,0.01,False,,,not reached within completed budget,True
+32,random,none,0,c532c36968d7f0fb,300,0.006,False,,,not reached within completed budget,True
+32,bo_iso,none,0,a166109716cc472e,100,0.01,True,32,6.852794299999914,reached,True
+32,bo_iso,none,0,a166109716cc472e,100,0.006,True,55,22.69538199999988,reached,True
+32,bo_iso,none,0,a166109716cc472e,300,0.01,True,32,6.852794299999914,reached,True
+32,bo_iso,none,0,a166109716cc472e,300,0.006,True,55,22.69538199999988,reached,True
+32,cma_full,resample,0,fccc32b492048ed8,100,0.01,False,,,not reached within completed budget,True
+32,cma_full,resample,0,fccc32b492048ed8,100,0.006,False,,,not reached within completed budget,True
+32,cma_full,resample,0,fccc32b492048ed8,300,0.01,True,156,0.1852831000005608,reached,True
+32,cma_full,resample,0,fccc32b492048ed8,300,0.006,True,287,0.34158190000016475,reached,True
+32,cma_full,project,0,b3263c70fca2b821,100,0.01,True,39,0.03790160000062315,reached,True
+32,cma_full,project,0,b3263c70fca2b821,100,0.006,False,,,not reached within completed budget,True
+32,cma_full,project,0,b3263c70fca2b821,300,0.01,True,39,0.03790160000062315,reached,True
+32,cma_full,project,0,b3263c70fca2b821,300,0.006,True,116,0.12166030000025785,reached,True
+32,cma_full,project,2,96b365a1b286a1cb,100,0.01,False,,,not reached within completed budget,True
+32,cma_full,project,2,96b365a1b286a1cb,100,0.006,False,,,not reached within completed budget,True
+32,cma_full,project,2,96b365a1b286a1cb,300,0.01,True,115,0.11793150000085006,reached,True
+32,cma_full,project,2,96b365a1b286a1cb,300,0.006,False,,,not reached within completed budget,True
+32,bo_iso_pool,none,0,6d156c0658bcf462,100,0.01,True,29,0.494617900000776,reached,True
+32,bo_iso_pool,none,0,6d156c0658bcf462,100,0.006,False,,,not reached within completed budget,True
+32,bo_iso_pool,none,0,6d156c0658bcf462,300,0.01,True,29,0.494617900000776,reached,True
+32,bo_iso_pool,none,0,6d156c0658bcf462,300,0.006,True,189,16.650824500000454,reached,True
+33,cma_full,project,0,f590b9401713930d,100,0.01,True,40,0.03714369999943301,reached,True
+33,cma_full,project,0,f590b9401713930d,100,0.006,False,,,not reached within completed budget,True
+33,cma_full,project,0,f590b9401713930d,300,0.01,True,40,0.03714369999943301,reached,True
+33,cma_full,project,0,f590b9401713930d,300,0.006,True,103,0.10305789999983972,reached,True
+33,bo_iso,none,0,94481909895b713e,100,0.01,True,49,21.294482000000244,reached,True
+33,bo_iso,none,0,94481909895b713e,100,0.006,True,96,74.39018920000035,reached,True
+33,bo_iso,none,0,94481909895b713e,300,0.01,True,49,21.294482000000244,reached,True
+33,bo_iso,none,0,94481909895b713e,300,0.006,True,96,74.39018920000035,reached,True
+33,random,none,0,c1bded7727989571,100,0.01,False,,,not reached within completed budget,True
+33,random,none,0,c1bded7727989571,100,0.006,False,,,not reached within completed budget,True
+33,random,none,0,c1bded7727989571,300,0.01,False,,,not reached within completed budget,True
+33,random,none,0,c1bded7727989571,300,0.006,False,,,not reached within completed budget,True
+33,cma_full,project,1,a882de357e03c6b1,100,0.01,True,45,0.043490299999575655,reached,True
+33,cma_full,project,1,a882de357e03c6b1,100,0.006,False,,,not reached within completed budget,True
+33,cma_full,project,1,a882de357e03c6b1,300,0.01,True,45,0.043490299999575655,reached,True
+33,cma_full,project,1,a882de357e03c6b1,300,0.006,True,279,0.29244239999934507,reached,True
+33,cma_full,resample,1,577b393fbb7311c9,100,0.01,True,53,0.05789550000008603,reached,True
+33,cma_full,resample,1,577b393fbb7311c9,100,0.006,False,,,not reached within completed budget,True
+33,cma_full,resample,1,577b393fbb7311c9,300,0.01,True,53,0.05789550000008603,reached,True
+33,cma_full,resample,1,577b393fbb7311c9,300,0.006,False,,,not reached within completed budget,True
+33,bo_iso_pool,none,0,88bab884fb46d1bd,100,0.01,True,95,5.119252000000415,reached,True
+33,bo_iso_pool,none,0,88bab884fb46d1bd,100,0.006,False,,,not reached within completed budget,True
+33,bo_iso_pool,none,0,88bab884fb46d1bd,300,0.01,True,95,5.119252000000415,reached,True
+33,bo_iso_pool,none,0,88bab884fb46d1bd,300,0.006,True,140,9.715220500000214,reached,True
+33,cma_full,resample,0,2038e5288d0c6578,100,0.01,False,,,not reached within completed budget,True
+33,cma_full,resample,0,2038e5288d0c6578,100,0.006,False,,,not reached within completed budget,True
+33,cma_full,resample,0,2038e5288d0c6578,300,0.01,True,102,0.1145037999995111,reached,True
+33,cma_full,resample,0,2038e5288d0c6578,300,0.006,False,,,not reached within completed budget,True
+33,bo_ard,none,0,535903b7217d5906,100,0.01,True,36,10.9717969000003,reached,True
+33,bo_ard,none,0,535903b7217d5906,100,0.006,True,40,15.123155500000394,reached,True
+33,bo_ard,none,0,535903b7217d5906,300,0.01,True,36,10.9717969000003,reached,True
+33,bo_ard,none,0,535903b7217d5906,300,0.006,True,40,15.123155500000394,reached,True
+33,cma_full,project,2,8fe48197f57ecf4b,100,0.01,False,,,not reached within completed budget,True
+33,cma_full,project,2,8fe48197f57ecf4b,100,0.006,False,,,not reached within completed budget,True
+33,cma_full,project,2,8fe48197f57ecf4b,300,0.01,True,112,0.11506779999945138,reached,True
+33,cma_full,project,2,8fe48197f57ecf4b,300,0.006,True,192,0.20023649999984627,reached,True
+33,cma_full,resample,2,a79bff51b2c6c40b,100,0.01,False,,,not reached within completed budget,True
+33,cma_full,resample,2,a79bff51b2c6c40b,100,0.006,False,,,not reached within completed budget,True
+33,cma_full,resample,2,a79bff51b2c6c40b,300,0.01,True,177,0.19981810000081168,reached,True
+33,cma_full,resample,2,a79bff51b2c6c40b,300,0.006,False,,,not reached within completed budget,True
+34,cma_full,resample,0,be7e97246951b1d1,100,0.01,False,,,not reached within completed budget,True
+34,cma_full,resample,0,be7e97246951b1d1,100,0.006,False,,,not reached within completed budget,True
+34,cma_full,resample,0,be7e97246951b1d1,300,0.01,True,119,0.136123299999781,reached,True
+34,cma_full,resample,0,be7e97246951b1d1,300,0.006,True,221,0.2525690999991639,reached,True
+34,cma_full,project,0,80054fa534001724,100,0.01,False,,,not reached within completed budget,True
+34,cma_full,project,0,80054fa534001724,100,0.006,False,,,not reached within completed budget,True
+34,cma_full,project,0,80054fa534001724,300,0.01,True,125,0.1274158999995052,reached,True
+34,cma_full,project,0,80054fa534001724,300,0.006,False,,,not reached within completed budget,True
+34,cma_full,project,1,1b7855d7f41e21fa,100,0.01,False,,,not reached within completed budget,True
+34,cma_full,project,1,1b7855d7f41e21fa,100,0.006,False,,,not reached within completed budget,True
+34,cma_full,project,1,1b7855d7f41e21fa,300,0.01,True,183,0.18496390000018437,reached,True
+34,cma_full,project,1,1b7855d7f41e21fa,300,0.006,False,,,not reached within completed budget,True
+34,cma_full,resample,1,e6905bab59b926fb,100,0.01,False,,,not reached within completed budget,True
+34,cma_full,resample,1,e6905bab59b926fb,100,0.006,False,,,not reached within completed budget,True
+34,cma_full,resample,1,e6905bab59b926fb,300,0.01,True,207,0.22322150000036345,reached,True
+34,cma_full,resample,1,e6905bab59b926fb,300,0.006,False,,,not reached within completed budget,True
+34,bo_ard,none,0,7fadf62033b96417,100,0.01,True,33,7.102179699999397,reached,True
+34,bo_ard,none,0,7fadf62033b96417,100,0.006,True,75,39.829988100000264,reached,True
+34,bo_ard,none,0,7fadf62033b96417,300,0.01,True,33,7.102179699999397,reached,True
+34,bo_ard,none,0,7fadf62033b96417,300,0.006,True,75,39.829988100000264,reached,True
+34,cma_full,project,2,28170d5a9af7afb1,100,0.01,False,,,not reached within completed budget,True
+34,cma_full,project,2,28170d5a9af7afb1,100,0.006,False,,,not reached within completed budget,True
+34,cma_full,project,2,28170d5a9af7afb1,300,0.01,True,218,0.22925839999970776,reached,True
+34,cma_full,project,2,28170d5a9af7afb1,300,0.006,True,280,0.295939399999952,reached,True
+34,random,none,0,af8d485ba4e7eb2c,100,0.01,False,,,not reached within completed budget,True
+34,random,none,0,af8d485ba4e7eb2c,100,0.006,False,,,not reached within completed budget,True
+34,random,none,0,af8d485ba4e7eb2c,300,0.01,False,,,not reached within completed budget,True
+34,random,none,0,af8d485ba4e7eb2c,300,0.006,False,,,not reached within completed budget,True
+34,bo_iso_pool,none,0,d9d707f2ebcdbea6,100,0.01,False,,,not reached within completed budget,True
+34,bo_iso_pool,none,0,d9d707f2ebcdbea6,100,0.006,False,,,not reached within completed budget,True
+34,bo_iso_pool,none,0,d9d707f2ebcdbea6,300,0.01,True,120,7.358330000000024,reached,True
+34,bo_iso_pool,none,0,d9d707f2ebcdbea6,300,0.006,True,209,21.64887389999967,reached,True
+34,bo_iso,none,0,e35de2da8bed4883,100,0.01,False,,,not reached within completed budget,True
+34,bo_iso,none,0,e35de2da8bed4883,100,0.006,False,,,not reached within completed budget,True
+34,bo_iso,none,0,e35de2da8bed4883,300,0.01,True,137,80.59366569999929,reached,True
+34,bo_iso,none,0,e35de2da8bed4883,300,0.006,True,254,228.82870420000017,reached,True
+34,cma_full,resample,2,fdefe560e8641d44,100,0.01,True,94,0.11840780000056839,reached,True
+34,cma_full,resample,2,fdefe560e8641d44,100,0.006,False,,,not reached within completed budget,True
+34,cma_full,resample,2,fdefe560e8641d44,300,0.01,True,94,0.11840780000056839,reached,True
+34,cma_full,resample,2,fdefe560e8641d44,300,0.006,True,279,0.31903779999993276,reached,True
+35,cma_full,resample,0,80f9ef80530b0101,100,0.01,False,,,not reached within completed budget,True
+35,cma_full,resample,0,80f9ef80530b0101,100,0.006,False,,,not reached within completed budget,True
+35,cma_full,resample,0,80f9ef80530b0101,300,0.01,True,118,0.131447499999922,reached,True
+35,cma_full,resample,0,80f9ef80530b0101,300,0.006,True,215,0.2366860000001907,reached,True
+35,cma_full,project,0,68d5d53273085288,100,0.01,True,90,0.09193940000022849,reached,True
+35,cma_full,project,0,68d5d53273085288,100,0.006,True,98,0.10049590000016906,reached,True
+35,cma_full,project,0,68d5d53273085288,300,0.01,True,90,0.09193940000022849,reached,True
+35,cma_full,project,0,68d5d53273085288,300,0.006,True,98,0.10049590000016906,reached,True
+35,bo_iso,none,0,7a1e1cd48d3a1d0b,100,0.01,True,65,32.83266840000033,reached,True
+35,bo_iso,none,0,7a1e1cd48d3a1d0b,100,0.006,False,,,not reached within completed budget,True
+35,bo_iso,none,0,7a1e1cd48d3a1d0b,300,0.01,True,65,32.83266840000033,reached,True
+35,bo_iso,none,0,7a1e1cd48d3a1d0b,300,0.006,True,118,76.31037780000042,reached,True
+35,cma_full,project,1,5a9cc2d47df665a7,100,0.01,True,36,0.03408000000035827,reached,True
+35,cma_full,project,1,5a9cc2d47df665a7,100,0.006,False,,,not reached within completed budget,True
+35,cma_full,project,1,5a9cc2d47df665a7,300,0.01,True,36,0.03408000000035827,reached,True
+35,cma_full,project,1,5a9cc2d47df665a7,300,0.006,True,130,0.13483650000034686,reached,True
+35,cma_full,resample,2,a17aba1ab06fa367,100,0.01,True,25,0.02109440000003815,reached,True
+35,cma_full,resample,2,a17aba1ab06fa367,100,0.006,False,,,not reached within completed budget,True
+35,cma_full,resample,2,a17aba1ab06fa367,300,0.01,True,25,0.02109440000003815,reached,True
+35,cma_full,resample,2,a17aba1ab06fa367,300,0.006,True,175,0.20822039999984554,reached,True
+35,cma_full,resample,1,24be584b6c51a34a,100,0.01,False,,,not reached within completed budget,True
+35,cma_full,resample,1,24be584b6c51a34a,100,0.006,False,,,not reached within completed budget,True
+35,cma_full,resample,1,24be584b6c51a34a,300,0.01,True,125,0.13598759999968024,reached,True
+35,cma_full,resample,1,24be584b6c51a34a,300,0.006,True,296,0.3139179999998305,reached,True
+35,bo_iso_pool,none,0,f32fa4cf12b600e2,100,0.01,True,36,0.9132406999997329,reached,True
+35,bo_iso_pool,none,0,f32fa4cf12b600e2,100,0.006,True,44,1.3840814999994109,reached,True
+35,bo_iso_pool,none,0,f32fa4cf12b600e2,300,0.01,True,36,0.9132406999997329,reached,True
+35,bo_iso_pool,none,0,f32fa4cf12b600e2,300,0.006,True,44,1.3840814999994109,reached,True
+35,bo_ard,none,0,27ea6c732b9938c0,100,0.01,True,25,2.6114098999996713,reached,True
+35,bo_ard,none,0,27ea6c732b9938c0,100,0.006,True,44,17.3580136999999,reached,True
+35,bo_ard,none,0,27ea6c732b9938c0,300,0.01,True,25,2.6114098999996713,reached,True
+35,bo_ard,none,0,27ea6c732b9938c0,300,0.006,True,44,17.3580136999999,reached,True
+35,random,none,0,e7ffc3fd5343487e,100,0.01,False,,,not reached within completed budget,True
+35,random,none,0,e7ffc3fd5343487e,100,0.006,False,,,not reached within completed budget,True
+35,random,none,0,e7ffc3fd5343487e,300,0.01,False,,,not reached within completed budget,True
+35,random,none,0,e7ffc3fd5343487e,300,0.006,False,,,not reached within completed budget,True
+35,cma_full,project,2,1ce6b63cf57ddd50,100,0.01,True,26,0.02254010000069684,reached,True
+35,cma_full,project,2,1ce6b63cf57ddd50,100,0.006,False,,,not reached within completed budget,True
+35,cma_full,project,2,1ce6b63cf57ddd50,300,0.01,True,26,0.02254010000069684,reached,True
+35,cma_full,project,2,1ce6b63cf57ddd50,300,0.006,True,173,0.18247810000048048,reached,True
+36,random,none,0,e3bc5148e5af8b27,100,0.01,False,,,not reached within completed budget,True
+36,random,none,0,e3bc5148e5af8b27,100,0.006,False,,,not reached within completed budget,True
+36,random,none,0,e3bc5148e5af8b27,300,0.01,False,,,not reached within completed budget,True
+36,random,none,0,e3bc5148e5af8b27,300,0.006,False,,,not reached within completed budget,True
+36,bo_iso,none,0,8122f1cbdae60023,100,0.01,False,,,not reached within completed budget,True
+36,bo_iso,none,0,8122f1cbdae60023,100,0.006,False,,,not reached within completed budget,True
+36,bo_iso,none,0,8122f1cbdae60023,300,0.01,True,121,68.94449489999988,reached,True
+36,bo_iso,none,0,8122f1cbdae60023,300,0.006,True,178,132.84377219999988,reached,True
+36,bo_iso_pool,none,0,3a81eca17fe0746c,100,0.01,True,68,2.962756499999159,reached,True
+36,bo_iso_pool,none,0,3a81eca17fe0746c,100,0.006,False,,,not reached within completed budget,True
+36,bo_iso_pool,none,0,3a81eca17fe0746c,300,0.01,True,68,2.962756499999159,reached,True
+36,bo_iso_pool,none,0,3a81eca17fe0746c,300,0.006,True,178,16.92458280000028,reached,True
+36,cma_full,project,0,6eaab8aa84773728,100,0.01,True,95,0.09498309999980847,reached,True
+36,cma_full,project,0,6eaab8aa84773728,100,0.006,False,,,not reached within completed budget,True
+36,cma_full,project,0,6eaab8aa84773728,300,0.01,True,95,0.09498309999980847,reached,True
+36,cma_full,project,0,6eaab8aa84773728,300,0.006,True,133,0.13441550000061397,reached,True
+36,cma_full,project,1,5ea7f5da554e5ec8,100,0.01,False,,,not reached within completed budget,True
+36,cma_full,project,1,5ea7f5da554e5ec8,100,0.006,False,,,not reached within completed budget,True
+36,cma_full,project,1,5ea7f5da554e5ec8,300,0.01,True,152,0.15487220000068191,reached,True
+36,cma_full,project,1,5ea7f5da554e5ec8,300,0.006,False,,,not reached within completed budget,True
+36,bo_ard,none,0,8aaa6cdb5cc66a02,100,0.01,True,42,11.90537680000125,reached,True
+36,bo_ard,none,0,8aaa6cdb5cc66a02,100,0.006,False,,,not reached within completed budget,True
+36,bo_ard,none,0,8aaa6cdb5cc66a02,300,0.01,True,42,11.90537680000125,reached,True
+36,bo_ard,none,0,8aaa6cdb5cc66a02,300,0.006,True,135,90.90568370000074,reached,True
+36,cma_full,resample,1,255847b131e2b573,100,0.01,False,,,not reached within completed budget,True
+36,cma_full,resample,1,255847b131e2b573,100,0.006,False,,,not reached within completed budget,True
+36,cma_full,resample,1,255847b131e2b573,300,0.01,True,176,0.18838359999972454,reached,True
+36,cma_full,resample,1,255847b131e2b573,300,0.006,False,,,not reached within completed budget,True
+36,cma_full,project,2,fbdda8b56d29465d,100,0.01,False,,,not reached within completed budget,True
+36,cma_full,project,2,fbdda8b56d29465d,100,0.006,False,,,not reached within completed budget,True
+36,cma_full,project,2,fbdda8b56d29465d,300,0.01,True,103,0.10309640000014042,reached,True
+36,cma_full,project,2,fbdda8b56d29465d,300,0.006,True,165,0.1674786999992648,reached,True
+36,cma_full,resample,0,4261e6046519d9ee,100,0.01,True,81,0.0870377000010194,reached,True
+36,cma_full,resample,0,4261e6046519d9ee,100,0.006,False,,,not reached within completed budget,True
+36,cma_full,resample,0,4261e6046519d9ee,300,0.01,True,81,0.0870377000010194,reached,True
+36,cma_full,resample,0,4261e6046519d9ee,300,0.006,True,118,0.1296038000000408,reached,True
+36,cma_full,resample,2,0753b58084c18e06,100,0.01,False,,,not reached within completed budget,True
+36,cma_full,resample,2,0753b58084c18e06,100,0.006,False,,,not reached within completed budget,True
+36,cma_full,resample,2,0753b58084c18e06,300,0.01,True,198,0.22372300000097312,reached,True
+36,cma_full,resample,2,0753b58084c18e06,300,0.006,True,286,0.32121860000006563,reached,True
+37,cma_full,resample,1,9b7594a51dae72ca,100,0.01,True,65,0.06904669999858015,reached,True
+37,cma_full,resample,1,9b7594a51dae72ca,100,0.006,False,,,not reached within completed budget,True
+37,cma_full,resample,1,9b7594a51dae72ca,300,0.01,True,65,0.06904669999858015,reached,True
+37,cma_full,resample,1,9b7594a51dae72ca,300,0.006,True,214,0.2274541999995563,reached,True
+37,cma_full,resample,2,2b27c89e77f17cb3,100,0.01,False,,,not reached within completed budget,True
+37,cma_full,resample,2,2b27c89e77f17cb3,100,0.006,False,,,not reached within completed budget,True
+37,cma_full,resample,2,2b27c89e77f17cb3,300,0.01,True,136,0.1454503000004479,reached,True
+37,cma_full,resample,2,2b27c89e77f17cb3,300,0.006,True,282,0.3026408999994601,reached,True
+37,bo_iso_pool,none,0,52b454ff92ed4a26,100,0.01,True,81,4.06415460000062,reached,True
+37,bo_iso_pool,none,0,52b454ff92ed4a26,100,0.006,False,,,not reached within completed budget,True
+37,bo_iso_pool,none,0,52b454ff92ed4a26,300,0.01,True,81,4.06415460000062,reached,True
+37,bo_iso_pool,none,0,52b454ff92ed4a26,300,0.006,True,205,21.997579400000177,reached,True
+37,bo_ard,none,0,2153962d36d9dba1,100,0.01,True,48,16.04752879999978,reached,True
+37,bo_ard,none,0,2153962d36d9dba1,100,0.006,True,95,56.55735589999858,reached,True
+37,bo_ard,none,0,2153962d36d9dba1,300,0.01,True,48,16.04752879999978,reached,True
+37,bo_ard,none,0,2153962d36d9dba1,300,0.006,True,95,56.55735589999858,reached,True
+37,bo_iso,none,0,c2910ec1f7080a71,100,0.01,False,,,not reached within completed budget,True
+37,bo_iso,none,0,c2910ec1f7080a71,100,0.006,False,,,not reached within completed budget,True
+37,bo_iso,none,0,c2910ec1f7080a71,300,0.01,True,137,84.64352820000022,reached,True
+37,bo_iso,none,0,c2910ec1f7080a71,300,0.006,True,166,124.80218400000012,reached,True
+37,cma_full,project,1,2a801ced4be58f77,100,0.01,False,,,not reached within completed budget,True
+37,cma_full,project,1,2a801ced4be58f77,100,0.006,False,,,not reached within completed budget,True
+37,cma_full,project,1,2a801ced4be58f77,300,0.01,True,118,0.12179090000063297,reached,True
+37,cma_full,project,1,2a801ced4be58f77,300,0.006,True,175,0.18274960000053397,reached,True
+37,random,none,0,f45152fd7cd4bea7,100,0.01,False,,,not reached within completed budget,True
+37,random,none,0,f45152fd7cd4bea7,100,0.006,False,,,not reached within completed budget,True
+37,random,none,0,f45152fd7cd4bea7,300,0.01,True,111,0.1004666000008001,reached,True
+37,random,none,0,f45152fd7cd4bea7,300,0.006,False,,,not reached within completed budget,True
+37,cma_full,project,0,2dc5fbffbefff986,100,0.01,True,65,0.06599029999961203,reached,True
+37,cma_full,project,0,2dc5fbffbefff986,100,0.006,False,,,not reached within completed budget,True
+37,cma_full,project,0,2dc5fbffbefff986,300,0.01,True,65,0.06599029999961203,reached,True
+37,cma_full,project,0,2dc5fbffbefff986,300,0.006,True,135,0.14327789999879315,reached,True
+37,cma_full,project,2,79520a6cc803c393,100,0.01,True,70,0.07106069999827014,reached,True
+37,cma_full,project,2,79520a6cc803c393,100,0.006,False,,,not reached within completed budget,True
+37,cma_full,project,2,79520a6cc803c393,300,0.01,True,70,0.07106069999827014,reached,True
+37,cma_full,project,2,79520a6cc803c393,300,0.006,True,182,0.19240139999965322,reached,True
+37,cma_full,resample,0,ee455355b698fe57,100,0.01,True,91,0.10166840000056254,reached,True
+37,cma_full,resample,0,ee455355b698fe57,100,0.006,False,,,not reached within completed budget,True
+37,cma_full,resample,0,ee455355b698fe57,300,0.01,True,91,0.10166840000056254,reached,True
+37,cma_full,resample,0,ee455355b698fe57,300,0.006,True,169,0.19238640000003215,reached,True
+38,cma_full,project,1,fa8daa01f938ac52,100,0.01,True,33,0.029988399999638204,reached,True
+38,cma_full,project,1,fa8daa01f938ac52,100,0.006,False,,,not reached within completed budget,True
+38,cma_full,project,1,fa8daa01f938ac52,300,0.01,True,33,0.029988399999638204,reached,True
+38,cma_full,project,1,fa8daa01f938ac52,300,0.006,False,,,not reached within completed budget,True
+38,bo_iso,none,0,ba5d285c36dc37c0,100,0.01,True,32,6.586887299999944,reached,True
+38,bo_iso,none,0,ba5d285c36dc37c0,100,0.006,True,80,51.73452610000095,reached,True
+38,bo_iso,none,0,ba5d285c36dc37c0,300,0.01,True,32,6.586887299999944,reached,True
+38,bo_iso,none,0,ba5d285c36dc37c0,300,0.006,True,80,51.73452610000095,reached,True
+38,bo_ard,none,0,75bf199134edfe89,100,0.01,True,25,2.7427115999998932,reached,True
+38,bo_ard,none,0,75bf199134edfe89,100,0.006,True,73,46.856293599999844,reached,True
+38,bo_ard,none,0,75bf199134edfe89,300,0.01,True,25,2.7427115999998932,reached,True
+38,bo_ard,none,0,75bf199134edfe89,300,0.006,True,73,46.856293599999844,reached,True
+38,cma_full,resample,0,d5f26d474f2bf590,100,0.01,False,,,not reached within completed budget,True
+38,cma_full,resample,0,d5f26d474f2bf590,100,0.006,False,,,not reached within completed budget,True
+38,cma_full,resample,0,d5f26d474f2bf590,300,0.01,True,128,0.15135639999971318,reached,True
+38,cma_full,resample,0,d5f26d474f2bf590,300,0.006,True,236,0.27303889999893727,reached,True
+38,bo_iso_pool,none,0,4616001b8cb9b311,100,0.01,True,82,4.1347203999994235,reached,True
+38,bo_iso_pool,none,0,4616001b8cb9b311,100,0.006,True,93,5.071700000000419,reached,True
+38,bo_iso_pool,none,0,4616001b8cb9b311,300,0.01,True,82,4.1347203999994235,reached,True
+38,bo_iso_pool,none,0,4616001b8cb9b311,300,0.006,True,93,5.071700000000419,reached,True
+38,random,none,0,94e7e13c069bbd12,100,0.01,False,,,not reached within completed budget,True
+38,random,none,0,94e7e13c069bbd12,100,0.006,False,,,not reached within completed budget,True
+38,random,none,0,94e7e13c069bbd12,300,0.01,False,,,not reached within completed budget,True
+38,random,none,0,94e7e13c069bbd12,300,0.006,False,,,not reached within completed budget,True
+38,cma_full,resample,2,e4c4b595f41a6b13,100,0.01,False,,,not reached within completed budget,True
+38,cma_full,resample,2,e4c4b595f41a6b13,100,0.006,False,,,not reached within completed budget,True
+38,cma_full,resample,2,e4c4b595f41a6b13,300,0.01,True,200,0.21305600000050617,reached,True
+38,cma_full,resample,2,e4c4b595f41a6b13,300,0.006,False,,,not reached within completed budget,True
+38,cma_full,resample,1,ddbd7645668e708a,100,0.01,True,61,0.06835069999942789,reached,True
+38,cma_full,resample,1,ddbd7645668e708a,100,0.006,False,,,not reached within completed budget,True
+38,cma_full,resample,1,ddbd7645668e708a,300,0.01,True,61,0.06835069999942789,reached,True
+38,cma_full,resample,1,ddbd7645668e708a,300,0.006,False,,,not reached within completed budget,True
+38,cma_full,project,0,fc5e10300561829e,100,0.01,False,,,not reached within completed budget,True
+38,cma_full,project,0,fc5e10300561829e,100,0.006,False,,,not reached within completed budget,True
+38,cma_full,project,0,fc5e10300561829e,300,0.01,True,116,0.11724839999988035,reached,True
+38,cma_full,project,0,fc5e10300561829e,300,0.006,False,,,not reached within completed budget,True
+38,cma_full,project,2,f76d67856411caa6,100,0.01,False,,,not reached within completed budget,True
+38,cma_full,project,2,f76d67856411caa6,100,0.006,False,,,not reached within completed budget,True
+38,cma_full,project,2,f76d67856411caa6,300,0.01,True,140,0.14223330000095302,reached,True
+38,cma_full,project,2,f76d67856411caa6,300,0.006,True,267,0.2735026000009384,reached,True
+39,cma_full,project,2,ecb95ce151c376e9,100,0.01,True,29,0.026221600001008483,reached,True
+39,cma_full,project,2,ecb95ce151c376e9,100,0.006,False,,,not reached within completed budget,True
+39,cma_full,project,2,ecb95ce151c376e9,300,0.01,True,29,0.026221600001008483,reached,True
+39,cma_full,project,2,ecb95ce151c376e9,300,0.006,True,261,0.26761720000104106,reached,True
+39,random,none,0,ecd3e3a8ec74074a,100,0.01,False,,,not reached within completed budget,True
+39,random,none,0,ecd3e3a8ec74074a,100,0.006,False,,,not reached within completed budget,True
+39,random,none,0,ecd3e3a8ec74074a,300,0.01,False,,,not reached within completed budget,True
+39,random,none,0,ecd3e3a8ec74074a,300,0.006,False,,,not reached within completed budget,True
+39,cma_full,resample,1,079d873ff67f79aa,100,0.01,False,,,not reached within completed budget,True
+39,cma_full,resample,1,079d873ff67f79aa,100,0.006,False,,,not reached within completed budget,True
+39,cma_full,resample,1,079d873ff67f79aa,300,0.01,True,139,0.1502586999995401,reached,True
+39,cma_full,resample,1,079d873ff67f79aa,300,0.006,False,,,not reached within completed budget,True
+39,cma_full,resample,0,b4b8d3a1121943e5,100,0.01,False,,,not reached within completed budget,True
+39,cma_full,resample,0,b4b8d3a1121943e5,100,0.006,False,,,not reached within completed budget,True
+39,cma_full,resample,0,b4b8d3a1121943e5,300,0.01,True,117,0.13325169999916398,reached,True
+39,cma_full,resample,0,b4b8d3a1121943e5,300,0.006,False,,,not reached within completed budget,True
+39,cma_full,project,0,dd7c3e09faf33bef,100,0.01,True,54,0.05248570000003383,reached,True
+39,cma_full,project,0,dd7c3e09faf33bef,100,0.006,False,,,not reached within completed budget,True
+39,cma_full,project,0,dd7c3e09faf33bef,300,0.01,True,54,0.05248570000003383,reached,True
+39,cma_full,project,0,dd7c3e09faf33bef,300,0.006,True,110,0.11217490000126418,reached,True
+39,cma_full,resample,2,49c1b700b91fa478,100,0.01,True,65,0.07337809999989986,reached,True
+39,cma_full,resample,2,49c1b700b91fa478,100,0.006,False,,,not reached within completed budget,True
+39,cma_full,resample,2,49c1b700b91fa478,300,0.01,True,65,0.07337809999989986,reached,True
+39,cma_full,resample,2,49c1b700b91fa478,300,0.006,False,,,not reached within completed budget,True
+39,bo_iso,none,0,4affb925929fc422,100,0.01,True,44,16.281570199998896,reached,True
+39,bo_iso,none,0,4affb925929fc422,100,0.006,False,,,not reached within completed budget,True
+39,bo_iso,none,0,4affb925929fc422,300,0.01,True,44,16.281570199998896,reached,True
+39,bo_iso,none,0,4affb925929fc422,300,0.006,True,290,378.5048513999991,reached,True
+39,bo_ard,none,0,b022ef66ea97b34c,100,0.01,True,39,12.33962640000027,reached,True
+39,bo_ard,none,0,b022ef66ea97b34c,100,0.006,True,98,89.83197069999915,reached,True
+39,bo_ard,none,0,b022ef66ea97b34c,300,0.01,True,39,12.33962640000027,reached,True
+39,bo_ard,none,0,b022ef66ea97b34c,300,0.006,True,98,89.83197069999915,reached,True
+39,cma_full,project,1,2d9533d5c262bab0,100,0.01,True,76,0.07431130000077246,reached,True
+39,cma_full,project,1,2d9533d5c262bab0,100,0.006,False,,,not reached within completed budget,True
+39,cma_full,project,1,2d9533d5c262bab0,300,0.01,True,76,0.07431130000077246,reached,True
+39,cma_full,project,1,2d9533d5c262bab0,300,0.006,True,283,0.28812120000111463,reached,True
+39,bo_iso_pool,none,0,03d70f207d4105be,100,0.01,True,53,1.954216500000257,reached,True
+39,bo_iso_pool,none,0,03d70f207d4105be,100,0.006,False,,,not reached within completed budget,True
+39,bo_iso_pool,none,0,03d70f207d4105be,300,0.01,True,53,1.954216500000257,reached,True
+39,bo_iso_pool,none,0,03d70f207d4105be,300,0.006,True,105,6.338312599998972,reached,True

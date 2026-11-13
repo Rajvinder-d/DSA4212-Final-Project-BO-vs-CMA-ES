@@ -1,0 +1,13 @@
+contrast,calls,orientation,design_groups,estimate,low,high,interpretation
+"ARD minus scalar, continuous",100,404,20,0.15192857614680752,0.054942493868057794,0.2545596771901169,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+"ARD minus scalar, continuous",100,505,20,0.11716327512406977,0.024832669162202916,0.2354416158226259,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+"ARD minus scalar, continuous",100,606,20,0.19595624585408672,0.14391892081673263,0.2518549870568167,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+"ARD minus scalar, pool",100,404,20,0.13341092991267003,0.05475990065298011,0.21954402396554473,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+"ARD minus scalar, pool",100,505,20,0.1091893433385952,0.04177346014188649,0.18116218243368276,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+"ARD minus scalar, pool",100,606,20,0.08517940291819363,0.019625500467322365,0.156494353403661,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+Diagonal minus full CMA,100,404,20,-0.04902681668103785,-0.12035851629880066,0.02390376426237198,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+Diagonal minus full CMA,100,505,20,-0.04087579621258449,-0.11122931665710527,0.0256979501117126,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+Diagonal minus full CMA,100,606,20,-0.08395530689166134,-0.17159279616359455,-0.00535724937214617,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+Diagonal minus full CMA,300,404,20,0.0646428539464188,0.022988690362207926,0.10648505859050746,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+Diagonal minus full CMA,300,505,20,0.08065084534598777,0.03998640435444751,0.11973660048723878,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations
+Diagonal minus full CMA,300,606,20,0.08219823327643411,0.034488792488345174,0.13251748467371305,post hoc; signed rotation-effect difference; pointwise 95% design-bootstrap interval; conditional on selected rotations

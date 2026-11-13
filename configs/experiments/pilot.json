@@ -1,0 +1,104 @@
+{
+  "protocol": "configs/protocols/rotation_battery_v1.json",
+  "n_init": 20,
+  "name": "pilot_v1",
+  "budget": 100,
+  "blocks": [
+    {
+      "name": "battery_ball",
+      "objective": "battery",
+      "domains": [
+        "ball"
+      ],
+      "rotations": [
+        null,
+        101
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "methods": [
+        "bo_iso",
+        "bo_ard",
+        "cma_full",
+        "cma_diag",
+        "random"
+      ]
+    },
+    {
+      "name": "battery_boundary",
+      "objective": "battery",
+      "domains": [
+        "box"
+      ],
+      "rotations": [
+        null,
+        101
+      ],
+      "seeds": [
+        0
+      ],
+      "methods": [
+        "bo_iso",
+        "bo_ard",
+        "cma_full",
+        "cma_diag",
+        "random"
+      ],
+      "cma_handlers": [
+        "resample",
+        "project"
+      ]
+    },
+    {
+      "name": "quadratic_control",
+      "objective": "quadratic",
+      "conditions": [
+        1,
+        100,
+        10000
+      ],
+      "domains": [
+        "ball"
+      ],
+      "rotations": [
+        null,
+        101
+      ],
+      "seeds": [
+        0
+      ],
+      "methods": [
+        "bo_iso",
+        "bo_ard",
+        "cma_full",
+        "cma_diag",
+        "random"
+      ]
+    },
+    {
+      "name": "ocv_sensitivity",
+      "objective": "battery",
+      "domains": [
+        "ball"
+      ],
+      "rotations": [
+        null,
+        101
+      ],
+      "seeds": [
+        0
+      ],
+      "methods": [
+        "bo_iso",
+        "bo_ard",
+        "cma_full",
+        "cma_diag",
+        "random"
+      ],
+      "corrected": false
+    }
+  ]
+}

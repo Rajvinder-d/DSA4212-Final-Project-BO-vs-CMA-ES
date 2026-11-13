@@ -1,0 +1,9 @@
+method,calls,orientation,design_groups,estimate,low,high,interpretation
+cma_diag,100,202,10,0.18663098974246914,0.08781968616488116,0.28461097567088595,conditional on selected objective and orientations; exploratory interval with few design groups
+cma_diag,100,303,10,0.12393749090932951,0.007439923381321427,0.2392990204220357,conditional on selected objective and orientations; exploratory interval with few design groups
+cma_diag,300,202,10,0.00472446842094259,-0.08914666295189563,0.09467640223452221,conditional on selected objective and orientations; exploratory interval with few design groups
+cma_diag,300,303,10,0.03704598778142606,-0.06735888252663343,0.16471904186801817,conditional on selected objective and orientations; exploratory interval with few design groups
+cma_full,100,202,10,-0.010041845108152769,-0.10797909376664305,0.06827454734899696,conditional on selected objective and orientations; exploratory interval with few design groups
+cma_full,100,303,10,-0.06505262693804732,-0.16377875022514587,0.023817154356354075,conditional on selected objective and orientations; exploratory interval with few design groups
+cma_full,300,202,10,-0.009644237314005955,-0.08406733079951147,0.0654995848357249,conditional on selected objective and orientations; exploratory interval with few design groups
+cma_full,300,303,10,0.02679914968788441,-0.08423093249940836,0.1488258387335938,conditional on selected objective and orientations; exploratory interval with few design groups

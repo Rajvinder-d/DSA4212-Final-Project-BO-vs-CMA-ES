@@ -1,0 +1,361 @@
+block,method,handler,calls,initial_design_seed,absolute_log10_ratio,comparison
+battery_ball,cma_diag,resample,100,10,0.09252751548975861,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,11,0.2372964722003741,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,12,0.33684044226059284,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,13,0.19645470445920696,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,14,0.05899713544617624,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,15,0.5165458073501807,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,16,0.39952746647447296,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,17,0.09784573071962889,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,18,0.08452765566224281,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,19,0.1638130472460082,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,10,0.029913483522152562,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,11,0.028689730542950088,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,12,0.09141044013600245,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,13,0.05456554113928478,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,14,0.06297544782344319,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,15,0.023490159807385433,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,16,0.07641231822299917,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,17,0.024804922578820738,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,18,0.1559053014513472,I vs I (independent searches)
+battery_ball,cma_diag,resample,300,19,0.066444940220962,I vs I (independent searches)
+battery_ball,cma_full,resample,100,10,0.17226026749122533,I vs I (independent searches)
+battery_ball,cma_full,resample,100,11,0.09821716680923791,I vs I (independent searches)
+battery_ball,cma_full,resample,100,12,0.1691453681540237,I vs I (independent searches)
+battery_ball,cma_full,resample,100,13,0.09006432272558494,I vs I (independent searches)
+battery_ball,cma_full,resample,100,14,0.31215429817954904,I vs I (independent searches)
+battery_ball,cma_full,resample,100,15,0.30320889450493066,I vs I (independent searches)
+battery_ball,cma_full,resample,100,16,0.4098844440936154,I vs I (independent searches)
+battery_ball,cma_full,resample,100,17,0.22367869857697617,I vs I (independent searches)
+battery_ball,cma_full,resample,100,18,0.26471330555535966,I vs I (independent searches)
+battery_ball,cma_full,resample,100,19,0.1384388116725543,I vs I (independent searches)
+battery_ball,cma_full,resample,300,10,0.07922088129509591,I vs I (independent searches)
+battery_ball,cma_full,resample,300,11,0.07458474310662022,I vs I (independent searches)
+battery_ball,cma_full,resample,300,12,0.0819018605561852,I vs I (independent searches)
+battery_ball,cma_full,resample,300,13,0.13600444598173692,I vs I (independent searches)
+battery_ball,cma_full,resample,300,14,0.08736940600944819,I vs I (independent searches)
+battery_ball,cma_full,resample,300,15,0.02503279615272012,I vs I (independent searches)
+battery_ball,cma_full,resample,300,16,0.151152723921365,I vs I (independent searches)
+battery_ball,cma_full,resample,300,17,0.16993443061920413,I vs I (independent searches)
+battery_ball,cma_full,resample,300,18,0.10448856815062502,I vs I (independent searches)
+battery_ball,cma_full,resample,300,19,0.03912663126123502,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,10,0.2690696116253168,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,11,0.4594446188574158,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,12,0.13479378262463973,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,13,0.2794025970931222,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,14,0.39768734970726055,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,15,0.41052586750844494,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,16,0.24809673028486232,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,17,0.5371819903045368,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,18,0.2414537417653391,I vs I (independent searches)
+battery_boundary,cma_diag,project,100,19,0.20627567135783198,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,10,0.15183609245814525,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,11,0.3073581804019757,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,12,0.11313807647890355,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,13,0.12577669510369885,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,14,0.0857593266254101,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,15,0.25014673291704015,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,16,0.10452282231085429,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,17,0.43977405006287124,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,18,0.10014430692096458,I vs I (independent searches)
+battery_boundary,cma_diag,project,300,19,0.2582741508033802,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,10,0.34139961259297197,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,11,0.3694516617788763,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,12,0.2285368066481038,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,13,0.15422205593419316,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,14,0.16483656074107678,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,15,0.4096326412697025,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,16,0.05447592672231416,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,17,0.23364319622853122,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,18,0.24068487457001767,I vs I (independent searches)
+battery_boundary,cma_diag,resample,100,19,0.24972057111278614,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,10,0.16557704126565775,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,11,0.2157903299435214,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,12,0.123316914332417,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,13,0.015179742701307827,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,14,0.10569145619578228,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,15,0.058432330261594924,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,16,0.05758851929196424,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,17,0.4960203199006064,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,18,0.12676845022220432,I vs I (independent searches)
+battery_boundary,cma_diag,resample,300,19,0.2573955762754385,I vs I (independent searches)
+battery_boundary,cma_full,project,100,10,0.09165320253248532,I vs I (independent searches)
+battery_boundary,cma_full,project,100,11,0.27788327870109597,I vs I (independent searches)
+battery_boundary,cma_full,project,100,12,0.4248214922511712,I vs I (independent searches)
+battery_boundary,cma_full,project,100,13,0.23936763667268843,I vs I (independent searches)
+battery_boundary,cma_full,project,100,14,0.14532782460646146,I vs I (independent searches)
+battery_boundary,cma_full,project,100,15,0.09166574124010285,I vs I (independent searches)
+battery_boundary,cma_full,project,100,16,0.12539982042152623,I vs I (independent searches)
+battery_boundary,cma_full,project,100,17,0.22729217488943707,I vs I (independent searches)
+battery_boundary,cma_full,project,100,18,0.22707854837787025,I vs I (independent searches)
+battery_boundary,cma_full,project,100,19,0.40394614369578624,I vs I (independent searches)
+battery_boundary,cma_full,project,300,10,0.03131377921985594,I vs I (independent searches)
+battery_boundary,cma_full,project,300,11,0.26154170835013374,I vs I (independent searches)
+battery_boundary,cma_full,project,300,12,0.20073724419283948,I vs I (independent searches)
+battery_boundary,cma_full,project,300,13,0.2487688463537658,I vs I (independent searches)
+battery_boundary,cma_full,project,300,14,0.0032055856113906516,I vs I (independent searches)
+battery_boundary,cma_full,project,300,15,0.12657177333931824,I vs I (independent searches)
+battery_boundary,cma_full,project,300,16,0.1289700460677469,I vs I (independent searches)
+battery_boundary,cma_full,project,300,17,0.08278201213254904,I vs I (independent searches)
+battery_boundary,cma_full,project,300,18,0.08209093893622547,I vs I (independent searches)
+battery_boundary,cma_full,project,300,19,0.13866952989790762,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,10,0.12280975728490884,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,11,0.1336675961784669,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,12,0.23517944955551573,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,13,0.11751478159760896,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,14,0.15423693218910736,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,15,0.20149735161384696,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,16,0.037303453653210146,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,17,0.8029939113558363,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,18,0.28099577056523756,I vs I (independent searches)
+battery_boundary,cma_full,resample,100,19,0.4111987334223694,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,10,0.10568547466420312,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,11,0.2518272701549407,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,12,0.197575373909195,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,13,0.13017492013581633,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,14,0.02081070725949117,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,15,0.08317290299030787,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,16,0.014182455702883156,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,17,0.20380941835835845,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,18,0.20791446493964946,I vs I (independent searches)
+battery_boundary,cma_full,resample,300,19,0.10719876316097814,I vs I (independent searches)
+battery_ball,cma_diag,resample,100,10,0.21834784470297905,Q202 vs I
+battery_ball,cma_diag,resample,100,11,0.4112547283431162,Q202 vs I
+battery_ball,cma_diag,resample,100,12,0.193467065651882,Q202 vs I
+battery_ball,cma_diag,resample,100,13,0.1326309953914259,Q202 vs I
+battery_ball,cma_diag,resample,100,14,0.21408538386480927,Q202 vs I
+battery_ball,cma_diag,resample,100,15,0.3635071653612285,Q202 vs I
+battery_ball,cma_diag,resample,100,16,0.39451696194354513,Q202 vs I
+battery_ball,cma_diag,resample,100,17,0.19450093669924215,Q202 vs I
+battery_ball,cma_diag,resample,100,18,0.20212756035620175,Q202 vs I
+battery_ball,cma_diag,resample,100,19,0.3296436061120948,Q202 vs I
+battery_ball,cma_diag,resample,300,10,0.08412465572820876,Q202 vs I
+battery_ball,cma_diag,resample,300,11,0.056154441519238936,Q202 vs I
+battery_ball,cma_diag,resample,300,12,0.08870247180870026,Q202 vs I
+battery_ball,cma_diag,resample,300,13,0.19000521626107592,Q202 vs I
+battery_ball,cma_diag,resample,300,14,0.1600390962371389,Q202 vs I
+battery_ball,cma_diag,resample,300,15,0.011606858176366008,Q202 vs I
+battery_ball,cma_diag,resample,300,16,0.18374283746270095,Q202 vs I
+battery_ball,cma_diag,resample,300,17,0.13862668608175377,Q202 vs I
+battery_ball,cma_diag,resample,300,18,0.04873298200807822,Q202 vs I
+battery_ball,cma_diag,resample,300,19,0.2118225993097067,Q202 vs I
+battery_ball,cma_full,resample,100,10,0.2613574947071667,Q202 vs I
+battery_ball,cma_full,resample,100,11,0.1624398640431922,Q202 vs I
+battery_ball,cma_full,resample,100,12,0.12163494008720416,Q202 vs I
+battery_ball,cma_full,resample,100,13,0.27555022836651827,Q202 vs I
+battery_ball,cma_full,resample,100,14,0.23359752507296094,Q202 vs I
+battery_ball,cma_full,resample,100,15,0.26288699575504254,Q202 vs I
+battery_ball,cma_full,resample,100,16,0.1983631083195255,Q202 vs I
+battery_ball,cma_full,resample,100,17,0.13279386713017952,Q202 vs I
+battery_ball,cma_full,resample,100,18,0.11399734582104881,Q202 vs I
+battery_ball,cma_full,resample,100,19,0.14205235878379266,Q202 vs I
+battery_ball,cma_full,resample,300,10,0.0652612753674462,Q202 vs I
+battery_ball,cma_full,resample,300,11,0.10585164328511437,Q202 vs I
+battery_ball,cma_full,resample,300,12,0.09521809804304486,Q202 vs I
+battery_ball,cma_full,resample,300,13,0.10678452247418173,Q202 vs I
+battery_ball,cma_full,resample,300,14,0.045618462549435586,Q202 vs I
+battery_ball,cma_full,resample,300,15,0.10265633135447623,Q202 vs I
+battery_ball,cma_full,resample,300,16,0.13425131894263131,Q202 vs I
+battery_ball,cma_full,resample,300,17,0.1215078910033256,Q202 vs I
+battery_ball,cma_full,resample,300,18,0.026911375035751972,Q202 vs I
+battery_ball,cma_full,resample,300,19,0.10856383368845773,Q202 vs I
+battery_boundary,cma_diag,project,100,10,0.1595879031707169,Q202 vs I
+battery_boundary,cma_diag,project,100,11,0.2516028190927568,Q202 vs I
+battery_boundary,cma_diag,project,100,12,0.3215053905906729,Q202 vs I
+battery_boundary,cma_diag,project,100,13,0.22471621714864873,Q202 vs I
+battery_boundary,cma_diag,project,100,14,0.12183041830417644,Q202 vs I
+battery_boundary,cma_diag,project,100,15,0.4225086592762955,Q202 vs I
+battery_boundary,cma_diag,project,100,16,0.2715479731765478,Q202 vs I
+battery_boundary,cma_diag,project,100,17,0.329928878198461,Q202 vs I
+battery_boundary,cma_diag,project,100,18,0.20581274449334355,Q202 vs I
+battery_boundary,cma_diag,project,100,19,0.3127255268473213,Q202 vs I
+battery_boundary,cma_diag,project,300,10,0.11367140834566435,Q202 vs I
+battery_boundary,cma_diag,project,300,11,0.2760055932072033,Q202 vs I
+battery_boundary,cma_diag,project,300,12,0.46700837984209986,Q202 vs I
+battery_boundary,cma_diag,project,300,13,0.13578220709496405,Q202 vs I
+battery_boundary,cma_diag,project,300,14,0.05730075646026492,Q202 vs I
+battery_boundary,cma_diag,project,300,15,0.192955922300582,Q202 vs I
+battery_boundary,cma_diag,project,300,16,0.07557397086558224,Q202 vs I
+battery_boundary,cma_diag,project,300,17,0.5109466899944651,Q202 vs I
+battery_boundary,cma_diag,project,300,18,0.08699988560561989,Q202 vs I
+battery_boundary,cma_diag,project,300,19,0.27269120687662124,Q202 vs I
+battery_boundary,cma_diag,resample,100,10,0.41139805820312253,Q202 vs I
+battery_boundary,cma_diag,resample,100,11,0.16003463637316007,Q202 vs I
+battery_boundary,cma_diag,resample,100,12,0.15357832002753583,Q202 vs I
+battery_boundary,cma_diag,resample,100,13,0.23417024020273366,Q202 vs I
+battery_boundary,cma_diag,resample,100,14,0.10184648025944072,Q202 vs I
+battery_boundary,cma_diag,resample,100,15,0.18624951864018424,Q202 vs I
+battery_boundary,cma_diag,resample,100,16,0.1385757698987082,Q202 vs I
+battery_boundary,cma_diag,resample,100,17,0.21154657059463575,Q202 vs I
+battery_boundary,cma_diag,resample,100,18,0.1541554443204656,Q202 vs I
+battery_boundary,cma_diag,resample,100,19,0.43919484806927506,Q202 vs I
+battery_boundary,cma_diag,resample,300,10,0.23782561504317176,Q202 vs I
+battery_boundary,cma_diag,resample,300,11,0.23168478849563376,Q202 vs I
+battery_boundary,cma_diag,resample,300,12,0.19026394619143885,Q202 vs I
+battery_boundary,cma_diag,resample,300,13,0.13555731396575105,Q202 vs I
+battery_boundary,cma_diag,resample,300,14,0.10170555675390884,Q202 vs I
+battery_boundary,cma_diag,resample,300,15,0.1510113221102543,Q202 vs I
+battery_boundary,cma_diag,resample,300,16,0.18254749634286416,Q202 vs I
+battery_boundary,cma_diag,resample,300,17,0.5224551131030677,Q202 vs I
+battery_boundary,cma_diag,resample,300,18,0.10131334496400747,Q202 vs I
+battery_boundary,cma_diag,resample,300,19,0.11346370693376734,Q202 vs I
+battery_boundary,cma_full,project,100,10,0.1283776286792632,Q202 vs I
+battery_boundary,cma_full,project,100,11,0.09032134403084013,Q202 vs I
+battery_boundary,cma_full,project,100,12,0.45304330097311807,Q202 vs I
+battery_boundary,cma_full,project,100,13,0.17816493117992868,Q202 vs I
+battery_boundary,cma_full,project,100,14,0.21839454378949721,Q202 vs I
+battery_boundary,cma_full,project,100,15,0.10734394111794614,Q202 vs I
+battery_boundary,cma_full,project,100,16,0.05930473366996559,Q202 vs I
+battery_boundary,cma_full,project,100,17,0.34099740289808106,Q202 vs I
+battery_boundary,cma_full,project,100,18,0.164609706427764,Q202 vs I
+battery_boundary,cma_full,project,100,19,0.38099158086809726,Q202 vs I
+battery_boundary,cma_full,project,300,10,0.13434860190723275,Q202 vs I
+battery_boundary,cma_full,project,300,11,0.2845649558816729,Q202 vs I
+battery_boundary,cma_full,project,300,12,0.0769372243184037,Q202 vs I
+battery_boundary,cma_full,project,300,13,0.19668747732994485,Q202 vs I
+battery_boundary,cma_full,project,300,14,0.017946185975272335,Q202 vs I
+battery_boundary,cma_full,project,300,15,0.1544124543303705,Q202 vs I
+battery_boundary,cma_full,project,300,16,0.0344656365298337,Q202 vs I
+battery_boundary,cma_full,project,300,17,0.4164342133276174,Q202 vs I
+battery_boundary,cma_full,project,300,18,0.18111367419509458,Q202 vs I
+battery_boundary,cma_full,project,300,19,0.15669809142501268,Q202 vs I
+battery_boundary,cma_full,resample,100,10,0.15711906267433895,Q202 vs I
+battery_boundary,cma_full,resample,100,11,0.19209667071373826,Q202 vs I
+battery_boundary,cma_full,resample,100,12,0.237913697899738,Q202 vs I
+battery_boundary,cma_full,resample,100,13,0.23951367335739518,Q202 vs I
+battery_boundary,cma_full,resample,100,14,0.24342708710797445,Q202 vs I
+battery_boundary,cma_full,resample,100,15,0.08705121273872594,Q202 vs I
+battery_boundary,cma_full,resample,100,16,0.13566859014232668,Q202 vs I
+battery_boundary,cma_full,resample,100,17,0.4328143640691248,Q202 vs I
+battery_boundary,cma_full,resample,100,18,0.21419064649305208,Q202 vs I
+battery_boundary,cma_full,resample,100,19,0.3164587729512,Q202 vs I
+battery_boundary,cma_full,resample,300,10,0.13472957795724264,Q202 vs I
+battery_boundary,cma_full,resample,300,11,0.26586392709040324,Q202 vs I
+battery_boundary,cma_full,resample,300,12,0.25877117097103947,Q202 vs I
+battery_boundary,cma_full,resample,300,13,0.0601833723040048,Q202 vs I
+battery_boundary,cma_full,resample,300,14,0.018492698862950668,Q202 vs I
+battery_boundary,cma_full,resample,300,15,0.12661336615614494,Q202 vs I
+battery_boundary,cma_full,resample,300,16,0.12140560376349711,Q202 vs I
+battery_boundary,cma_full,resample,300,17,0.13971748135914272,Q202 vs I
+battery_boundary,cma_full,resample,300,18,0.11895765191957548,Q202 vs I
+battery_boundary,cma_full,resample,300,19,0.10118341206461334,Q202 vs I
+battery_ball,cma_diag,resample,100,10,0.17936592440896063,Q303 vs I
+battery_ball,cma_diag,resample,100,11,0.20636751118412036,Q303 vs I
+battery_ball,cma_diag,resample,100,12,0.22281270757158933,Q303 vs I
+battery_ball,cma_diag,resample,100,13,0.2470744935979878,Q303 vs I
+battery_ball,cma_diag,resample,100,14,0.2305831237334265,Q303 vs I
+battery_ball,cma_diag,resample,100,15,0.3643799751511419,Q303 vs I
+battery_ball,cma_diag,resample,100,16,0.2722117067441591,Q303 vs I
+battery_ball,cma_diag,resample,100,17,0.3032430846340832,Q303 vs I
+battery_ball,cma_diag,resample,100,18,0.2820819899783153,Q303 vs I
+battery_ball,cma_diag,resample,100,19,0.314635122693022,Q303 vs I
+battery_ball,cma_diag,resample,300,10,0.15928348084774627,Q303 vs I
+battery_ball,cma_diag,resample,300,11,0.07105289319297457,Q303 vs I
+battery_ball,cma_diag,resample,300,12,0.06946099657382285,Q303 vs I
+battery_ball,cma_diag,resample,300,13,0.05693075446310911,Q303 vs I
+battery_ball,cma_diag,resample,300,14,0.18859847166042013,Q303 vs I
+battery_ball,cma_diag,resample,300,15,0.2003513524100534,Q303 vs I
+battery_ball,cma_diag,resample,300,16,0.07959282927218563,Q303 vs I
+battery_ball,cma_diag,resample,300,17,0.14798906635873468,Q303 vs I
+battery_ball,cma_diag,resample,300,18,0.20542306048119374,Q303 vs I
+battery_ball,cma_diag,resample,300,19,0.19859190640097193,Q303 vs I
+battery_ball,cma_full,resample,100,10,0.20793760624278299,Q303 vs I
+battery_ball,cma_full,resample,100,11,0.1491867281345274,Q303 vs I
+battery_ball,cma_full,resample,100,12,0.19282975345939926,Q303 vs I
+battery_ball,cma_full,resample,100,13,0.20655813230471476,Q303 vs I
+battery_ball,cma_full,resample,100,14,0.3436259225284446,Q303 vs I
+battery_ball,cma_full,resample,100,15,0.2861811144770981,Q303 vs I
+battery_ball,cma_full,resample,100,16,0.1274335687905819,Q303 vs I
+battery_ball,cma_full,resample,100,17,0.21888980768480118,Q303 vs I
+battery_ball,cma_full,resample,100,18,0.1478639358339423,Q303 vs I
+battery_ball,cma_full,resample,100,19,0.26124099813376783,Q303 vs I
+battery_ball,cma_full,resample,300,10,0.027502213559641126,Q303 vs I
+battery_ball,cma_full,resample,300,11,0.14376635764905715,Q303 vs I
+battery_ball,cma_full,resample,300,12,0.05219715084724421,Q303 vs I
+battery_ball,cma_full,resample,300,13,0.12915664823232129,Q303 vs I
+battery_ball,cma_full,resample,300,14,0.18303336444896315,Q303 vs I
+battery_ball,cma_full,resample,300,15,0.08445928717158206,Q303 vs I
+battery_ball,cma_full,resample,300,16,0.17087234959573214,Q303 vs I
+battery_ball,cma_full,resample,300,17,0.1287806211745778,Q303 vs I
+battery_ball,cma_full,resample,300,18,0.035913020379575854,Q303 vs I
+battery_ball,cma_full,resample,300,19,0.062243653751890414,Q303 vs I
+battery_boundary,cma_diag,project,100,10,0.26446633856997287,Q303 vs I
+battery_boundary,cma_diag,project,100,11,0.23216490310442853,Q303 vs I
+battery_boundary,cma_diag,project,100,12,0.2884083206659471,Q303 vs I
+battery_boundary,cma_diag,project,100,13,0.26029617203752076,Q303 vs I
+battery_boundary,cma_diag,project,100,14,0.30222196421350017,Q303 vs I
+battery_boundary,cma_diag,project,100,15,0.31232411891843004,Q303 vs I
+battery_boundary,cma_diag,project,100,16,0.22697253579677656,Q303 vs I
+battery_boundary,cma_diag,project,100,17,0.24619143620117487,Q303 vs I
+battery_boundary,cma_diag,project,100,18,0.28647242670251855,Q303 vs I
+battery_boundary,cma_diag,project,100,19,0.3308747720884026,Q303 vs I
+battery_boundary,cma_diag,project,300,10,0.09880523555701322,Q303 vs I
+battery_boundary,cma_diag,project,300,11,0.43913306363706894,Q303 vs I
+battery_boundary,cma_diag,project,300,12,0.11699171442833894,Q303 vs I
+battery_boundary,cma_diag,project,300,13,0.13615398443572188,Q303 vs I
+battery_boundary,cma_diag,project,300,14,0.0851698948838392,Q303 vs I
+battery_boundary,cma_diag,project,300,15,0.17275638127539428,Q303 vs I
+battery_boundary,cma_diag,project,300,16,0.11383203284203296,Q303 vs I
+battery_boundary,cma_diag,project,300,17,0.738914571955846,Q303 vs I
+battery_boundary,cma_diag,project,300,18,0.055081521536099944,Q303 vs I
+battery_boundary,cma_diag,project,300,19,0.19951841623195668,Q303 vs I
+battery_boundary,cma_diag,resample,100,10,0.18229204998835402,Q303 vs I
+battery_boundary,cma_diag,resample,100,11,0.21700930438486368,Q303 vs I
+battery_boundary,cma_diag,resample,100,12,0.1479009591191236,Q303 vs I
+battery_boundary,cma_diag,resample,100,13,0.10417515432638307,Q303 vs I
+battery_boundary,cma_diag,resample,100,14,0.060995494329262157,Q303 vs I
+battery_boundary,cma_diag,resample,100,15,0.2765426453720506,Q303 vs I
+battery_boundary,cma_diag,resample,100,16,0.2568434684461381,Q303 vs I
+battery_boundary,cma_diag,resample,100,17,0.08004563780723119,Q303 vs I
+battery_boundary,cma_diag,resample,100,18,0.3233319398787212,Q303 vs I
+battery_boundary,cma_diag,resample,100,19,0.4367087643863243,Q303 vs I
+battery_boundary,cma_diag,resample,300,10,0.2432399068111046,Q303 vs I
+battery_boundary,cma_diag,resample,300,11,0.02403745871558151,Q303 vs I
+battery_boundary,cma_diag,resample,300,12,0.2211811546701183,Q303 vs I
+battery_boundary,cma_diag,resample,300,13,0.046806825234919226,Q303 vs I
+battery_boundary,cma_diag,resample,300,14,0.1786099586218959,Q303 vs I
+battery_boundary,cma_diag,resample,300,15,0.1045433699266478,Q303 vs I
+battery_boundary,cma_diag,resample,300,16,0.11253794424819275,Q303 vs I
+battery_boundary,cma_diag,resample,300,17,0.13593402150881714,Q303 vs I
+battery_boundary,cma_diag,resample,300,18,0.23049861593003254,Q303 vs I
+battery_boundary,cma_diag,resample,300,19,0.33630461670312667,Q303 vs I
+battery_boundary,cma_full,project,100,10,0.13701477289040892,Q303 vs I
+battery_boundary,cma_full,project,100,11,0.3386846070212408,Q303 vs I
+battery_boundary,cma_full,project,100,12,0.29932149735045993,Q303 vs I
+battery_boundary,cma_full,project,100,13,0.16974801534412742,Q303 vs I
+battery_boundary,cma_full,project,100,14,0.17508404258872123,Q303 vs I
+battery_boundary,cma_full,project,100,15,0.15452794702393907,Q303 vs I
+battery_boundary,cma_full,project,100,16,0.16407319470619652,Q303 vs I
+battery_boundary,cma_full,project,100,17,0.07397685135200442,Q303 vs I
+battery_boundary,cma_full,project,100,18,0.12488625176836184,Q303 vs I
+battery_boundary,cma_full,project,100,19,0.18815935790325064,Q303 vs I
+battery_boundary,cma_full,project,300,10,0.0893107751487986,Q303 vs I
+battery_boundary,cma_full,project,300,11,0.03901851166136283,Q303 vs I
+battery_boundary,cma_full,project,300,12,0.13668063591699045,Q303 vs I
+battery_boundary,cma_full,project,300,13,0.24666357298891253,Q303 vs I
+battery_boundary,cma_full,project,300,14,0.03663990345629394,Q303 vs I
+battery_boundary,cma_full,project,300,15,0.1441723583468862,Q303 vs I
+battery_boundary,cma_full,project,300,16,0.14779871338219722,Q303 vs I
+battery_boundary,cma_full,project,300,17,0.5089709057686969,Q303 vs I
+battery_boundary,cma_full,project,300,18,0.13430976632245786,Q303 vs I
+battery_boundary,cma_full,project,300,19,0.26680227427782816,Q303 vs I
+battery_boundary,cma_full,resample,100,10,0.04961357802415171,Q303 vs I
+battery_boundary,cma_full,resample,100,11,0.28912625920370444,Q303 vs I
+battery_boundary,cma_full,resample,100,12,0.1385618132470795,Q303 vs I
+battery_boundary,cma_full,resample,100,13,0.1343702652240881,Q303 vs I
+battery_boundary,cma_full,resample,100,14,0.12587871027245787,Q303 vs I
+battery_boundary,cma_full,resample,100,15,0.2624044272175217,Q303 vs I
+battery_boundary,cma_full,resample,100,16,0.17137046193990865,Q303 vs I
+battery_boundary,cma_full,resample,100,17,0.4455087647973266,Q303 vs I
+battery_boundary,cma_full,resample,100,18,0.19161778769011248,Q303 vs I
+battery_boundary,cma_full,resample,100,19,0.19835292241187172,Q303 vs I
+battery_boundary,cma_full,resample,300,10,0.1782902467028624,Q303 vs I
+battery_boundary,cma_full,resample,300,11,0.22681041032454918,Q303 vs I
+battery_boundary,cma_full,resample,300,12,0.13198925221482274,Q303 vs I
+battery_boundary,cma_full,resample,300,13,0.10465680177634627,Q303 vs I
+battery_boundary,cma_full,resample,300,14,0.13784806948353168,Q303 vs I
+battery_boundary,cma_full,resample,300,15,0.20098884983214127,Q303 vs I
+battery_boundary,cma_full,resample,300,16,0.10546352703582972,Q303 vs I
+battery_boundary,cma_full,resample,300,17,0.25299371243822927,Q303 vs I
+battery_boundary,cma_full,resample,300,18,0.11525081139031941,Q303 vs I
+battery_boundary,cma_full,resample,300,19,0.12021448695489943,Q303 vs I

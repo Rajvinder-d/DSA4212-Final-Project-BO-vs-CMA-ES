@@ -1,0 +1,7 @@
+method,orientation,design_groups,estimate,low,high,interpretation
+cma_diag,404,20,0.040518966611364206,-0.06577566299696558,0.14622756429169026,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_diag,505,20,0.004548818348958148,-0.09049572737575962,0.10536612819271374,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_diag,606,20,0.0030538756998224155,-0.08400816046402848,0.10209808934308229,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_full,404,20,0.05243424129464298,-0.0495002570967051,0.16262869329840787,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_full,505,20,0.0035222935272393114,-0.10217019823571213,0.12324643834220027,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+cma_full,606,20,0.00539111622856223,-0.08259962576875118,0.10144022256980476,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4

@@ -1,0 +1,66 @@
+{
+  "id": "boundary-comparison-v5-v4-aligned",
+  "protocol": "configs/protocols/rotation_battery_v1.json",
+  "initial_design_seeds": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "cma_search_replicates": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_init": 20,
+  "budget": 300,
+  "checkpoints": [
+    100,
+    300
+  ],
+  "methods": [
+    "bo_iso",
+    "bo_ard",
+    "bo_iso_pool",
+    "random",
+    "cma_full"
+  ],
+  "cma_handlers": [
+    "resample",
+    "project"
+  ],
+  "pool": {
+    "interior": 2048,
+    "surface": 2048,
+    "chunk_size": 256
+  },
+  "targets_rmse_v": [
+    0.01,
+    0.006
+  ],
+  "bootstrap_seed": 5129,
+  "bootstrap_resamples": 10000,
+  "status": "V4-matched extension on reused designs; exploratory; measured-data rerun not yet executed",
+  "executor": "v4-aligned-v1",
+  "namespace": 4107,
+  "scheduling_seed": 5107,
+  "lengthscale_upper": 5.0
+}

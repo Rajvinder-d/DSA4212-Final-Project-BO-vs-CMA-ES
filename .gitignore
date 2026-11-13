@@ -1,0 +1,39 @@
+# Personal agent guidance and reference notes; keep shared documentation visible.
+AGENTS.md
+AGENTS.override.md
+agent.md
+agents.md
+USER_PREFERENCES.md
+WORKING_STYLE.md
+/.agent-local/
+/configs/local/
+
+# Local environments, credentials and editor state.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.Rhistory
+.DS_Store
+
+# Python outputs and caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+/build/
+/dist/
+
+# Inputs and generated experiment artifacts. Curated result outputs go in results/.
+/data/
+/artifacts/
+*.log
+
+# Editor lock files.
+.~lock.*#

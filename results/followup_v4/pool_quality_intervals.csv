@@ -1,0 +1,17 @@
+block,kernel,orientation,design_groups,estimate,low,high,interpretation
+battery_bo,ard,-1,20,0.11435028377157844,0.05936296484757902,0.16268467169750622,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery_bo,ard,404,20,0.11354632871813017,-0.004648952033222058,0.23341133887822366,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery_bo,ard,505,20,0.0964254006051108,0.026195637460594563,0.15668099507935718,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery_bo,ard,606,20,0.03066461767019261,-0.052880065459483955,0.11263601262046842,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery_bo,iso,-1,20,-0.023282969129015854,-0.12086744547414782,0.07395462907575209,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery_bo,iso,404,20,-0.005569277948326606,-0.08147463537215682,0.0769648390263839,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery_bo,iso,505,20,-0.03323392051000892,-0.13678260256659344,0.0657280702877636,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery_bo,iso,606,20,0.003808207705491419,-0.1337111516399116,0.10906981165072922,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic_bo,ard,-1,10,1.9448095711382887,1.673778469429058,2.2160380387070506,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic_bo,ard,404,10,0.33665866141139966,0.18201484108239854,0.5068310912693591,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic_bo,ard,505,10,0.30316916881717365,0.18605761692056666,0.44623902922083336,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic_bo,ard,606,10,0.21910117135693702,0.05482208173970504,0.38058871602542155,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic_bo,iso,-1,10,0.2504854687021447,0.07626598752350852,0.44110755040514177,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic_bo,iso,404,10,0.2779920953907457,0.10532114242053252,0.5003956553283141,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic_bo,iso,505,10,0.25766665564166286,0.10727608781600344,0.42142887997270495,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic_bo,iso,606,10,0.1915038381456279,0.13042414813910624,0.25439203829903867,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4

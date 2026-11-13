@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "complete_runs": 3160,
+  "search_calls": 796000,
+  "assessment_calls": 10560,
+  "outputs_verified": 44,
+  "notebook_sha256": "2cda051dc24695436510f73ca7a6f512d07b5ec304cd71de7f72e2e037d5d366",
+  "executed_cells": 9,
+  "preserved_files": 9305,
+  "visual_review": "complete; see visual_review.json for agent review and figure hashes",
+  "visual_review_sha256": "a72f42c0088e9c91c11fbfc8c135021ca0fc29b7ad7cd4abcefce45751fd2aaa"
+}

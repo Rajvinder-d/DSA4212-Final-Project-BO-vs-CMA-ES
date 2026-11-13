@@ -1,0 +1,11 @@
+# Keep fingerprinted source/configuration bytes identical on Linux and Windows.
+*.py text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Preserve the bytes covered by the Windows V5 export hashes.
+results/v5/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+results/v5-aligned/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+results/v5-aligned/figure_notes.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,0 +1,10 @@
+{
+  "source_run_id": "8dbda071f08c63de",
+  "initial_observations": 20,
+  "query_points": 100,
+  "max_posterior_mean_difference": 1.7763568394002505e-15,
+  "max_posterior_variance_difference": 6.661338147750939e-16,
+  "max_log_ei_difference": 8.526512829121202e-14,
+  "extra_simulator_calls": 0,
+  "scope": "fixed scalar length scale .7, output scale 1 and common default mean; no refitting"
+}

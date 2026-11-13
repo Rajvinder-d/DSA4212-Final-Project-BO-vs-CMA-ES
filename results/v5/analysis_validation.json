@@ -1,0 +1,26 @@
+{
+  "collection_sha256": "d585c4fb72b5c0245413f5c4350c679d67d2bdcf029563421cf6bc237c3e7370",
+  "analysis_sha256": "1d7f16643dc0852237ead367b96e990d5e4ab329e281dbfb7c14c089e5f05be5",
+  "contrast_source_sha256": "89829659a5e788403ccd4f0942c7a9cab2d4b5b4127c20af400f7c3f24defc9f",
+  "planned_runs": 100,
+  "completed_runs": 100,
+  "complete_design_groups": 10,
+  "excluded_design_groups": 0,
+  "all_recorded_search_calls": 30262,
+  "objective_setup_calls": 44,
+  "total_recorded_invocation_s": 8154.7109083,
+  "plots": null,
+  "recorded_assessment_calls": 400,
+  "attempts_without_assessment_accounting": 1,
+  "status": "complete",
+  "outputs": {
+    "attempts.csv": "f4c40cf0a63a16e88e4d92b671f624c052690c451cba2ecfd41545abb5bfa690",
+    "checkpoints.csv": "8a3146b1e4d14fe43183994a53345a4af81214173b1e3f7c4e38901fe246eb32",
+    "contrasts.csv": "de8a6b4cfad75f274e878658d3ecd80bd431ab4dfceeec6352d2fba2040f65ee",
+    "coverage.csv": "8debf6b53f1819f8da9ed0538125223ff1cf3fc5182a5b2136e026d83c8b85b1",
+    "run_status.csv": "95b90f4cbafcac757a03c64ac46552bc638d63a2bf70035fe4cb3e9076c6f22b",
+    "targets.csv": "68084954b2de70e0692dd11709d7b0f55eb37ab4bdd5c089c92bc0e2a3d4505d",
+    "target_summary.csv": "a60aae8df5d9f8222d10384779c08140aeed477410d39303cf2ec5c039bb76d3"
+  },
+  "interpretation": "Primary contrast is projection/resampling at 100 calls; other contrasts are secondary. Intervals resample initial designs. Excluded groups may bias comparisons; conditional target times must accompany hit rates and coverage."
+}

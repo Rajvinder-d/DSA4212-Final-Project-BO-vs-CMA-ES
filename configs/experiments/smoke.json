@@ -1,0 +1,33 @@
+{
+  "protocol": "configs/protocols/rotation_battery_v1.json",
+  "n_init": 20,
+  "name": "smoke_v1",
+  "budget": 28,
+  "blocks": [
+    {
+      "name": "smoke",
+      "objective": "battery",
+      "domains": [
+        "ball",
+        "box"
+      ],
+      "rotations": [
+        101
+      ],
+      "seeds": [
+        9
+      ],
+      "methods": [
+        "bo_iso",
+        "bo_ard",
+        "cma_full",
+        "cma_diag",
+        "random"
+      ],
+      "cma_handlers": [
+        "resample",
+        "project"
+      ]
+    }
+  ]
+}

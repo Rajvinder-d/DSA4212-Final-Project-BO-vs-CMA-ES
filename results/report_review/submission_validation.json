@@ -1,0 +1,159 @@
+{
+  "generated_utc": "2026-11-13T13:42:19.821338+00:00",
+  "status": "Documentation and report wording update passed; ten-page PDF rebuilt; fresh repository prepared; no fresh optimisation experiments",
+  "scope": "Report wording, project documentation, AI-use disclosure and repository provenance cleanup",
+  "report": {
+    "pdf_pages": 10,
+    "page_size": "A4",
+    "source": "report/report.md",
+    "bibliography": "report/references.bib",
+    "figures": 5,
+    "tables": 5,
+    "references": 14,
+    "author_fields_and_repository_url_verified": true,
+    "latest_edit": "Removed old commit identifiers and old repository links; rebuilt PDF from Markdown for the fresh repository.",
+    "editable_word": "PDF-only deliverable; no Word export requested",
+    "visual_review": "Ten A4 pages re-rendered; text, tables, figures and numbering unchanged from the inspected revision",
+    "source_agreement": "All 218 Markdown text/table segments match the intermediate document; PDF text, equations and layout checked",
+    "build_command": "python scripts/build_report.py --soffice soffice",
+    "repository_hyperlink_verified": false,
+    "repository_hyperlink_status": "Report points to the new repository URL; remote publication pending GitHub authentication"
+  },
+  "saved_evidence": {
+    "status": "saved evidence verified",
+    "exported_file_hashes": 100,
+    "coverage": {
+      "V1": {
+        "planned": 84,
+        "completed": 84
+      },
+      "V3": {
+        "planned": 885,
+        "completed": 885
+      },
+      "V4": {
+        "planned": 3160,
+        "completed": 3160
+      },
+      "original V5": {
+        "planned": 100,
+        "completed": 100
+      },
+      "aligned V5": {
+        "planned": 280,
+        "completed": 279
+      }
+    },
+    "executed_notebook_cells": {
+      "01_data_inspection_and_preparation.ipynb": 5,
+      "02_battery_model_and_geometry.ipynb": 6,
+      "03_pilot_experiments.ipynb": 6,
+      "04_results_and_interpretation.ipynb": 9,
+      "05_followup_diagnostics_and_confirmation.ipynb": 9,
+      "06_v4_mechanism_and_confirmation.ipynb": 9
+    },
+    "aligned_contrasts_recomputed": 14,
+    "experiments_executed": false,
+    "limits": "Does not verify absent historical raw runs or execute fresh experiments",
+    "comparison_tolerance": {
+      "relative": 1e-12,
+      "absolute": 1e-12,
+      "exact": "types, keys, lengths, identifiers, booleans, integer counts and committed-file SHA-256 hashes"
+    }
+  },
+  "tests": {
+    "python": "3.12.10",
+    "command": "MPLCONFIGDIR=artifacts/.matplotlib .venv/bin/python -m pytest -q",
+    "passed": 97,
+    "skipped": 2,
+    "subtests_passed": 19,
+    "skip_reason": "Optional JAX dependency unavailable; CALCE processed data absent",
+    "warning": "Torch FutureWarning about torch.jit.script deprecation",
+    "saved_evidence_command_passed": true,
+    "preflight_ready": true,
+    "deterministic_deadline_cases": [
+      "before execution",
+      "setup before first evaluation",
+      "after four evaluations"
+    ],
+    "rotation_design_rows_recomputed": 240,
+    "rotation_method_intervals_recomputed": 12,
+    "boundary_intervals_recomputed": 12,
+    "boundary_budget_intervals_recomputed": 6,
+    "conditioning_intervals_recomputed": 12,
+    "new_display_input_validation": "Coverage, duplicates, finite values, interval order and design counts checked; corruption fixtures pass",
+    "r_figures_rebuilt": [
+      2,
+      4,
+      5
+    ],
+    "conditioning_figure_rebuilt": 3,
+    "all_notebook_code_counts_outputs_unchanged": true,
+    "historical_export_bytes_unchanged": true,
+    "frozen_scientific_inputs_unchanged": true,
+    "local_markdown_paths_resolve": true,
+    "git_diff_check_passed": true
+  },
+  "unverified": [
+    "Full optimisation experiment rerun was not performed",
+    "Original raw per-evaluation executions: historical candidate arrays/manifests absent",
+    "GitHub repository publication, marking access for alexxthiery and Canvas submission"
+  ],
+  "historical_validation_record": "docs/IMPLEMENTATION_VALIDATION.md",
+  "sha256": {
+    "CONTRIBUTING.md": "24f2889e68fa2ca0d553c05f0fdf9438f86da4322a5ad1d8c033072ca14da019",
+    "authors.md": "d1821e2b24e26f97ee01840db9f5326f09866b08f16b426b730c132ad90c4d17",
+    "docs/DECISIONS.md": "2f69ba442ea1069d706aa07c7ac6fd2d7baf9e0eda64c61bdab935977a920e07",
+    "docs/IMPLEMENTATION_VALIDATION.md": "72c3a570471047d2abb21807cf907cabc0d3c53d941f258b19d171ab3dd9012f",
+    "docs/REPORT_EVIDENCE.md": "55917c497b20561cb5e452220f499517f4de0deff677ce8859f5fbcda77f3d5b",
+    "docs/REPRODUCING.md": "35ced7d08d05718745785e7f504b17cdc4aaa3d41cb35e37fa9ec4e55e5167d1",
+    "docs/STUDENT_ENGAGEMENT.md": "ae481379764d323b4d961da2feeaceeb1a4fa5bd2f0005ea56afdfc87961d94f",
+    "notebooks/04_results_and_interpretation.ipynb": "bcfa49932120a305ec8d3ca482ce6ab0f95c13c619ec7d9956906797813df662",
+    "notebooks/05_followup_diagnostics_and_confirmation.ipynb": "128eba7ae112f6ee365faaf5d845e118d4efbe9c1d389cc803ad79aee638c63e",
+    "notebooks/06_v4_mechanism_and_confirmation.ipynb": "5c77532ab7e3d22602b89eccc6bcda4265e4c7da62773c07e336ad6b747ccc77",
+    "readme.md": "fc921da1d2b57bfb5bca6cb7ab35a17febd915fa5c31ff860f1fdf941d6deb3a",
+    "report/figures/figure1_fit_detail.png": "34df385279b84fdcc2bb4090cc2d593487a0cf98037f66dcd9239054f16c17af",
+    "report/figures/figure2.pdf": "c0a0285fe5bcdc8924be2b53dfe40a6491ad2ab50a91bc3b4bc6c7eacfe3fb19",
+    "report/figures/figure2.png": "bcfa2949b665a52cd9a1987f3741e40340b8352ec9f8cdccfe0e764f6a5cb076",
+    "report/figures/figure3.pdf": "b9249190893c30bb3b56b04ba6c9a3c17cbba30d96caee37d02a7761bd0c2ae7",
+    "report/figures/figure3.png": "8bc82b1881d3e0010a12102fbb2616d7cd88fa755500bb96e8b6a99fde550f30",
+    "report/figures/figure4.pdf": "d147150c642773c0fc388d02cbfac95eec1af8aebc00ec304506af9ca2ac6df0",
+    "report/figures/figure4.png": "52af625552ce1b31180e12bd422121733b43cc07fbdae2cfa50b17dfe7dfaf97",
+    "report/figures/figure5.pdf": "b14de96295e94e547eaed90e14d98bc87e431cfe0646ce118420725d390a9169",
+    "report/figures/figure5.png": "1166671eaa99f0559c531404e488c85d5776cb9fcadfde0d1502170972cec966",
+    "report/references.bib": "921af54ae1c13a5aa64c186b81791f2367f5063add3d87eb34e7b7ebfd874b14",
+    "report/report.md": "fd52166ebef5d3c066fe40e91f307ed913d7025e4b3994d944875c67533599e9",
+    "report/report.pdf": "c41d69fdb88ef119b81f76be5c4a54ab354a6fe7eab80e72947ef9f121da87a8",
+    "requirements-reproduce.txt": "526f37841aedf73b77f8588005db88132904aa9be8f77f0edeb353fa19fc9baf",
+    "results/report_review/README.md": "7bf42a35a55e148348f2520ff18e5ddddd1554b3c36e3dd0f311aabdafe10bfd",
+    "scripts/analyse_aligned_v5.py": "a95cfd67466cd639c58be5632fef08dc3deac9604d7284a3547e10811f74f05f",
+    "scripts/analyse_rotation_contrasts.py": "dcaf8550c12087a7b92122f98a880574720843ee184c02cb2a8efe4df6805463",
+    "scripts/build_report.py": "5b3f5419bf231a95681ddbac16544db8e78e50ffaed23d730a1e08a933884453",
+    "scripts/plot_report_figures.R": "c6464ce884fe56e2f449767c62efd62ee480dc0134b3979d2f8cbe861da56015",
+    "scripts/prepare_report_evidence.py": "531732861149385042b2a5f18587e0e356f3dc856bdd20b88e3190b3b5e92e70",
+    "scripts/reproduce.py": "1f0520bc00e9906636b6cb24a2ffe7d72d839e8c5b80a76d7ee5555ca2674ce6",
+    "tests/test_followup_v4.py": "bf39fd0ef353efac7db1cc3e4a2cceb25ae3d5471b93c894981d363014937931",
+    "tests/test_report_evidence.py": "1b0e7465c8130e0b6c5786721d314019a9a0d8f3c32ef5a6a982122ff2bfc030",
+    "tests/test_report_rotation_contrasts.py": "3de931edacd69ed641ff21fc42bab2c48fb9c3b6d08e7f127dac539e9d0e219f",
+    "tests/test_reproduce.py": "3ba0c238bae43652b6eadd3f3f5721727d3d8c3c29484508c316ccdca8ecd812"
+  },
+  "historical_cleanup": {
+    "removed": "Redundant laptop installer/package extra, separate laptop guide and GitHub templates; obsolete blank protocol checklist",
+    "preserved": "Windows/JAX instructions and execution evidence consolidated in docs/REPRODUCING.md; numerical implementations, frozen settings, results and final report unchanged",
+    "checks": "14 runner tests and saved-evidence audit passed; all 15 frozen input hashes intact; local Markdown paths resolve"
+  },
+  "historical_results_relocation": {
+    "directory": "results/",
+    "previous_directory": "reports/",
+    "checks": "137 numerical/plot/execution-record files byte-identical; relocation did not alter the final report; notebook source paths only; Python/R path edits only; 15 frozen input hashes and V4 source record verified; 14 runner tests and saved-evidence audit passed",
+    "historical_records": "Original audit paths and notebook outputs retained; mapping documented in docs/REPRODUCING.md"
+  },
+  "added_display_inputs_sha256": {
+    "results/followup_v3/rotation_effects_by_orientation.csv": "4327087a40f3636e676d3c231ac2ebf0c143d157909013a71a6cffee6d423879",
+    "results/followup_v3/rotation_pairs.csv": "b828f10d65fdd98e4024544877ac700832080a0545c31884b0cd9f3c1f0c5f0b",
+    "results/followup_v4/boundary_intervals.csv": "19b0906ae46381eee6fcd924f18f0b392ec0af29097b5b4e2b009fafa79a2e44",
+    "results/followup_v4/boundary_budget_intervals.csv": "e2740f02475f5fb47b3ab885cda2766c69a5b439407028c5dbcc0766f35f7e16",
+    "results/followup_v4/boundary_pairs.csv": "7ee4836ab85832043148394cbce7d3fb2ef979a0fc0b433455f49f1f4d2f6357",
+    "results/followup_v4/boundary_budget_pairs.csv": "82052006944c6ab186b1bf0521fcd934b069d6e72906dde248ca2d735b52ff99"
+  }
+}

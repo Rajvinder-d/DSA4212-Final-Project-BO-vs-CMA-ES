@@ -1,0 +1,19 @@
+block,method,handler,orientation,design_groups,estimate,low,high,interpretation
+battery_ball,cma_diag,resample,-1,10,-0.4589732585670541,-0.5390649276962868,-0.3731988257543989,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_ball,cma_diag,resample,202,10,-0.34827521093986735,-0.39924759307967245,-0.30235462871725455,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_ball,cma_diag,resample,303,10,-0.41158483042613947,-0.5007486580584618,-0.3313107022635937,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_ball,cma_full,resample,-1,10,-0.43873960182616134,-0.5088380145576246,-0.36105033254826635,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_ball,cma_full,resample,202,10,-0.4870101008054217,-0.5575752865167731,-0.4080722342338924,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_ball,cma_full,resample,303,10,-0.4788845800675121,-0.5465241404755541,-0.41779766760995124,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_diag,project,-1,10,-0.3221674117301977,-0.39943393335267596,-0.2414615334169986,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_diag,project,202,10,-0.3603808900701696,-0.439401148183688,-0.27609035965154166,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_diag,project,303,10,-0.3010284990386041,-0.3838402778212455,-0.20949309005334749,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_diag,resample,-1,10,-0.4046600665693184,-0.5113067825281494,-0.3104519127205958,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_diag,resample,202,10,-0.2609670235877635,-0.37126624446188494,-0.15887192261246455,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_diag,resample,303,10,-0.29662965074982117,-0.3725143383453154,-0.22577505841543716,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_full,project,-1,10,-0.4235704967429714,-0.5867840168397208,-0.28512712231512294,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_full,project,202,10,-0.3930681649142084,-0.48975361643676035,-0.31890638220369544,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_full,project,303,10,-0.3167348069074577,-0.39071858573524976,-0.2461910773861714,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_full,resample,-1,10,-0.36452330931390703,-0.4953716917756273,-0.2507520879462675,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_full,resample,202,10,-0.33441858527929064,-0.48442031762696736,-0.22910720805713175,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,cma_full,resample,303,10,-0.34953939610432516,-0.5261671724524564,-0.20785150563047972,conditional on selected objective and orientations; exploratory interval with few design groups

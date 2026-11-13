@@ -1,0 +1,5 @@
+method,orientation,design_groups,estimate,low,high,interpretation,analysis_status
+cma_diag,202,10,-0.18190652132152654,-0.254921358107388,-0.11639269567498628,conditional on selected objective and orientations; exploratory interval with few design groups,post-confirmation exploratory budget contrast
+cma_diag,303,10,-0.08689150312790346,-0.20184788449556848,0.015638691333428722,conditional on selected objective and orientations; exploratory interval with few design groups,post-confirmation exploratory budget contrast
+cma_full,202,10,0.0003976077941468148,-0.1266602050073001,0.1561183742400658,conditional on selected objective and orientations; exploratory interval with few design groups,post-confirmation exploratory budget contrast
+cma_full,303,10,0.09185177662593172,-0.08491117866401648,0.28398688998761246,conditional on selected objective and orientations; exploratory interval with few design groups,post-confirmation exploratory budget contrast

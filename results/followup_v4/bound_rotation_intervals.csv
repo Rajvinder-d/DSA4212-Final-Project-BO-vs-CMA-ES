@@ -1,0 +1,13 @@
+objective,method,orientation,design_groups,estimate,low,high,interpretation
+battery,bo_ard_pool,404,10,0.006797094316174876,-0.13605683571095833,0.15516105905694022,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery,bo_ard_pool,505,10,-0.016089608548071514,-0.11280087018553112,0.08242177453124666,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery,bo_ard_pool,606,10,-0.005053232145120182,-0.18243111973946088,0.1862027344087267,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery,bo_iso_pool,404,10,0.0,0.0,0.0,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery,bo_iso_pool,505,10,0.0,0.0,0.0,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+battery,bo_iso_pool,606,10,0.0,0.0,0.0,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic,bo_ard_pool,404,10,-0.19806458108128475,-0.36497048299951934,0.0339271658305481,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic,bo_ard_pool,505,10,-0.24294874205708253,-0.4558108927602993,0.00875191302395357,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic,bo_ard_pool,606,10,-0.1191191282581852,-0.30069236808026756,0.07227691211620539,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic,bo_iso_pool,404,10,-3.1340642662981957e-16,-1.1089765865362849e-15,3.2787133862811803e-16,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic,bo_iso_pool,505,10,-2.0974122397533598e-15,-6.658681156550391e-15,1.1571929598639771e-15,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4
+quadratic,bo_iso_pool,606,10,-1.6875730664682277e-16,-8.437865332341178e-16,6.509210399234676e-16,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4

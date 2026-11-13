@@ -1,0 +1,3 @@
+contrast,seeds,mean_absolute_effect_difference,bootstrap_low,bootstrap_high,interpretation
+bo_ard minus bo_iso,3,-0.09279909754566744,-0.2909146608021691,0.04370218586082425,descriptive pilot contrast
+cma_diag minus cma_full,3,-0.09376203384305475,-0.40640670501324005,0.146023203545512,descriptive pilot contrast

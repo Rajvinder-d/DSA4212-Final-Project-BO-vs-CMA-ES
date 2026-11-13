@@ -1,0 +1,21 @@
+{
+  "id": "rotation-followup-v3",
+  "v1_protocol": "configs/protocols/rotation_battery_v1.json",
+  "development_protocol": "configs/diagnostics/development_v2.json",
+  "n_init": 20,
+  "confirmation_seeds": [10,11,12,13,14,15,16,17,18,19],
+  "rotations": [null,202,303],
+  "cma_search_replicates": [0,1,2],
+  "search_seed_namespace": 3107,
+  "pool": {"interior": 2048, "surface": 2048, "chunk_size": 256},
+  "primary_calls": 100,
+  "cma_extension_calls": 300,
+  "quadratic_seeds": [10,11,12,13,14],
+  "conditions": [1,100,10000],
+  "battery_targets_rmse_v": [0.01,0.006],
+  "bootstrap_seed": 129,
+  "bootstrap_resamples": 2000,
+  "max_compute_seconds": 14400,
+  "development_max_seconds": 1200,
+  "attribution": "Agent-executed experiments; student reproduction and interpretation require separate evidence"
+}

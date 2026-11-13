@@ -1,0 +1,15 @@
+block,condition,handler,calls,contrast,design_groups,estimate,low,high,interpretation
+battery_ball,,none,100,bo_ard minus bo_iso,10,0.09362714982674449,0.022542426530333233,0.1612710200734578,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_ball,,none,100,bo_iso_pool minus bo_iso,10,-0.07688270699000668,-0.12193524507410403,-0.034219933009697626,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_ball,,resample,100,cma_diag minus cma_full,10,0.06152082962233196,0.0083227700944477,0.11046318883700641,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_ball,,resample,300,cma_diag minus cma_full,10,0.031014161884986496,-0.001025683363132404,0.06545703696865808,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,,project,100,cma_diag minus cma_full,10,0.07125669335072005,0.024158381523790837,0.11943984458854152,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,,project,300,cma_diag minus cma_full,10,0.04706584524427494,-0.013032273362028435,0.11109254761898808,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,,resample,100,cma_diag minus cma_full,10,0.0006768268225938151,-0.085003075305136,0.07949009015945721,conditional on selected objective and orientations; exploratory interval with few design groups
+battery_boundary,,resample,300,cma_diag minus cma_full,10,0.0340548822836078,-0.007608881046584045,0.07478368125891151,conditional on selected objective and orientations; exploratory interval with few design groups
+quadratic_control,1.0,none,100,bo_ard minus bo_iso,5,0.14882484250833064,0.009856874272948134,0.3116676691982033,conditional on selected objective and orientations; exploratory interval with few design groups
+quadratic_control,1.0,resample,100,cma_diag minus cma_full,5,-0.14800778640894302,-0.28889526449338776,-0.007120308324498286,conditional on selected objective and orientations; exploratory interval with few design groups
+quadratic_control,100.0,none,100,bo_ard minus bo_iso,5,0.14486693706091633,-0.18544779590240199,0.3556659947626859,conditional on selected objective and orientations; exploratory interval with few design groups
+quadratic_control,100.0,resample,100,cma_diag minus cma_full,5,-0.027792967474248788,-0.054414508743138315,0.0004343349155264839,conditional on selected objective and orientations; exploratory interval with few design groups
+quadratic_control,10000.0,none,100,bo_ard minus bo_iso,5,1.58812381113786,1.483076671859473,1.6941789075342424,conditional on selected objective and orientations; exploratory interval with few design groups
+quadratic_control,10000.0,resample,100,cma_diag minus cma_full,5,0.054215269136847176,-0.14116038939403308,0.23799981611317253,conditional on selected objective and orientations; exploratory interval with few design groups

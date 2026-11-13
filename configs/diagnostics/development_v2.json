@@ -1,0 +1,28 @@
+{
+  "id": "rotation-diagnostics-v2-development",
+  "status": "development diagnostics; not confirmation",
+  "v1_protocol": "configs/protocols/rotation_battery_v1.json",
+  "initial_design_seeds": [0, 1],
+  "rotation_seeds": [101],
+  "checkpoints": [20, 24, 40],
+  "n_init": 20,
+  "query_seed": 930,
+  "query_points": 100,
+  "acquisition_start_seed": 941,
+  "acquisition_maxiter": [80, 240],
+  "acquisition_ftol": 1e-9,
+  "reference": {
+    "starts": 3,
+    "seed": 710,
+    "total_calls": 1200,
+    "maxiter": 200,
+    "ftol": 1e-10,
+    "difference_step": 1e-5
+  },
+  "max_wall_seconds": 1200,
+  "reserved_confirmation": {
+    "initial_design_seeds": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+    "rotation_seeds": [202, 303],
+    "status": "reserved; no confirmation runner or intervention selected"
+  }
+}

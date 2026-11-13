@@ -1,0 +1,13 @@
+block,method,lengthscale_upper,fits,near_upper,near_lower,warnings
+battery_bo,bo_ard,5.0,6400,2343,0,0
+battery_bo,bo_ard_pool,5.0,6400,2254,0,0
+battery_bo,bo_iso,5.0,6400,0,0,0
+battery_bo,bo_iso_pool,5.0,6400,0,0,0
+battery_bound,bo_ard_pool,20.0,3200,816,0,0
+battery_bound,bo_iso_pool,20.0,3200,0,0,0
+quadratic_bo,bo_ard,5.0,3200,3097,0,0
+quadratic_bo,bo_ard_pool,5.0,3200,3116,0,0
+quadratic_bo,bo_iso,5.0,3200,959,0,0
+quadratic_bo,bo_iso_pool,5.0,3200,948,0,0
+quadratic_bound,bo_ard_pool,20.0,3200,1520,0,0
+quadratic_bound,bo_iso_pool,20.0,3200,0,0,0

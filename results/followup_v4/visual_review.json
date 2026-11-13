@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "reviewer": "agent",
+  "reviewed_utc": "2026-11-11T15:30:42.999567+00:00",
+  "notebook_sha256": "2cda051dc24695436510f73ca7a6f512d07b5ec304cd71de7f72e2e037d5d366",
+  "figures": {
+    "bo_rotation_effects.png": "4e5f64d3a369e4745907a744976f1bd02aa499570272227a79b8eeff258f8be7",
+    "cma_adaptation.png": "c13839aaa9950e7bd021056b1969d3ae15b4df80f6e175f114a4356c89bd2fd7",
+    "cma_variability.png": "49682c4ce3cb91cd067087d000e00fba2c4b37b246ac2683bf9a2ed2d6357cd8",
+    "path_matching.png": "c2a178d2075e00aed147a82c275ff41b3bde0e8e1813eae807d0f68e004d5ed9",
+    "quality_and_time.png": "0608c9956f2617ca69d295f2e96e8224ca6568a2de21928208b6017d1267f235"
+  },
+  "checks": [
+    "All five saved scientific figures visually inspected.",
+    "Labels, legends, axis scales, plotted comparisons and uncertainty inspected; rotation-panel legends moved outside data.",
+    "Notebook has nine executed code cells, five inline figures, no cell errors and no truncated HTML tables.",
+    "Final Markdown clarification distinguishes independent fit diagnostics from the shared-state scalar control; executed code/results unchanged."
+  ],
+  "limitations": [
+    "Agent review is not independent student verification.",
+    "Future regenerated figures/notebook need a new hash-matched review."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source_record": "results/followup_v4/execution_record.json",
+  "source_record_sha256": "053b0a57a37f5ef9300ca346ecb6a51a978e5ddcfbd6c80b8712d300838639a4",
+  "source_sha256": {
+    "src/bo_vs_es/__init__.py": "1b02cfbe2e361c127e6a585f3144feed3cd5bfef37e5dc6b13fcc5ad64c7b516",
+    "src/bo_vs_es/diagnostics/__init__.py": "a3dd75ad2e51b350faa4deea98c970ff602b2f563bf4c2a4ea091c3fdb1556e5",
+    "src/bo_vs_es/diagnostics/core.py": "33d6776a2c3cc33f48fed0c98a09b9e53cdc575ec36f2868764c9050a95102b4",
+    "src/bo_vs_es/diagnostics/replay.py": "d5fbd7aaf0b651e374bc7cbff5e2e70695c9627788a5f3bf4cfaf3e38f6b5600",
+    "src/bo_vs_es/experiments/__init__.py": "d2c57ca1c2bed3e5802a7e8252ca90653905aa7026c561769dfa8580814effb6",
+    "src/bo_vs_es/experiments/runner.py": "f5b52ad8ee84c87f4b1d3eaee56a02970806752701ab9120015daa2e9f01c4a4",
+    "src/bo_vs_es/followup.py": "641c121610e83e46a2f1d52bedf6b8633eb081d27648c50bf1d45cb954f9ac62",
+    "src/bo_vs_es/followup_v4.py": "304d38a102a0b70b8d2a4f320e74b7e23cd0f0acc8236cf092438b6019b59568",
+    "src/bo_vs_es/objectives/__init__.py": "21e7b9f170f6e7f466a727db70329e2a788564c56a7fffc268a5990adab01cb8",
+    "src/bo_vs_es/objectives/data.py": "67237c70c7ec66f60dbdf99740ac8f44dcd998521f9b9b0c519d0c32f9f39fbc",
+    "src/bo_vs_es/objectives/models.py": "9e67a345bf8af385064b0b689e1990000518d82bd59b3bd734bae4d69efd4297",
+    "src/bo_vs_es/optimisers/__init__.py": "94fd46e4c50077bd68986b13b194098b2d32add9969a596952de8d06dcd6e466",
+    "src/bo_vs_es/optimisers/adapters.py": "9918531efb473bd439eed9cb11d97ef90307370a78056558e263f0898cb273ed"
+  },
+  "protocol_sha256": "889dec310448d29cb1f881806eb50a2eea1eb4302631fb8fd07cb9012c86df2d",
+  "dependency_lock_sha256": "eacca10987324e71ba63f4fbf461c7c572ed32b8f36a8edab7b8817b21c8873f",
+  "data_sha256": {
+    "dst80.csv": "71a9efd866301cf1090bbdc8ca0ae7475050fc1ad24c4895a9e85d5ebaa436b2",
+    "fuds50.csv": "dee9cb1b25625da9c71ab781238c4a8848caa1f72fa3e0948ded051b66e315f2",
+    "fuds80.csv": "4f1de37e5a4ad631a46655f784c975703fa5fdddaa319d2fa3abe5174e5d11ae",
+    "ocv.csv": "a984761dd01930e50415f6e96e4dc5b0b99338bdd3937777a73458013d7786e3"
+  },
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "torch": "2.15.0",
+    "botorch": "0.18.1",
+    "gpytorch": "1.15.2",
+    "cma": "4.5.0",
+    "openpyxl": "3.1.5"
+  },
+  "note": "Extracted from the executed V4 record. The platform-specific V4 launcher is intentionally not imported.",
+  "data_settings": {
+    "calibration_rest_offset_v": 0.012155018453011923,
+    "nominal_capacity_ah": 2.0,
+    "window_s": 3600,
+    "interval_current": "left endpoint; discharge positive",
+    "ocv_cell": "SP20-3",
+    "dynamic_cell": "SP20-2"
+  }
+}

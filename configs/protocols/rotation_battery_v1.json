@@ -1,0 +1,36 @@
+{
+  "id": "rotation-battery-v1",
+  "dimension": 5,
+  "capacity_ah": 2.0,
+  "window_s": 3600,
+  "lower": [
+    0.001,
+    0.0001,
+    1,
+    0.0001,
+    1
+  ],
+  "upper": [
+    0.2,
+    0.2,
+    2000,
+    0.2,
+    2000
+  ],
+  "bo": {
+    "fit_maxiter": 60,
+    "acq_maxiter": 80,
+    "raw_samples": 256,
+    "num_restarts": 8
+  },
+  "cma": {
+    "population": 8,
+    "sigma0": 0.3,
+    "max_proposals_per_point": 10000
+  },
+  "recommendation": "lowest observed loss",
+  "assessment": [
+    "fuds80",
+    "fuds50"
+  ]
+}

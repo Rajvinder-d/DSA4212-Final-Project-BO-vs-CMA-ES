@@ -1,0 +1,7 @@
+block,objective,orientation,design_groups,estimate,low,high,interpretation,estimand
+battery_bo,battery,404,20,0.017713691180689252,-0.020510180119164282,0.059049846972696114,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4,iso_pool_minus_continuous
+battery_bo,battery,505,20,-0.00995095138099306,-0.045668963235541885,0.02508115212604122,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4,iso_pool_minus_continuous
+battery_bo,battery,606,20,0.02709117683450727,-0.0625451628858735,0.11108869895498248,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4,iso_pool_minus_continuous
+quadratic_bo,quadratic,404,10,0.02750662668860097,-0.16049488880794735,0.15009721164454368,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4,iso_pool_minus_continuous
+quadratic_bo,quadratic,505,10,0.007181186939518189,-0.13975225321704504,0.10854312381520678,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4,iso_pool_minus_continuous
+quadratic_bo,quadratic,606,10,-0.05898163055651682,-0.2501724721382908,0.10342276544597039,pointwise 95% design-bootstrap interval; conditional on selected rotations; predeclared V4,iso_pool_minus_continuous

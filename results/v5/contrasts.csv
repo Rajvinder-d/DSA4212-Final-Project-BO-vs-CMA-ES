@@ -1,0 +1,15 @@
+contrast,calls,role,metric,design_groups,estimate,low,high
+CMA projection / CMA resampling,100,primary,mean design-level log10 MSE ratio,10,-0.17748670920606463,-0.296587305085087,-0.06151127212932348
+CMA resample / bo_iso,100,secondary,mean design-level log10 MSE ratio,10,0.36629322720145063,0.15507822307671562,0.5616103886849649
+CMA resample / bo_ard,100,secondary,mean design-level log10 MSE ratio,10,0.6720065626330227,0.5722673173510493,0.7609124248048178
+CMA resample / bo_iso_pool,100,secondary,mean design-level log10 MSE ratio,10,0.40825387991876033,0.28498089502574075,0.5318209486702702
+CMA project / bo_iso,100,secondary,mean design-level log10 MSE ratio,10,0.18880651799538603,-0.004886379983074871,0.37331793290378523
+CMA project / bo_ard,100,secondary,mean design-level log10 MSE ratio,10,0.49451985342695814,0.35190253798728327,0.6444441789907978
+CMA project / bo_iso_pool,100,secondary,mean design-level log10 MSE ratio,10,0.2307671707126957,0.1035478526840965,0.36423026267795316
+CMA projection / CMA resampling,300,secondary,mean design-level log10 MSE ratio,10,-0.023963066158937885,-0.07286825487227393,0.026296480854951287
+CMA resample / bo_iso,300,secondary,mean design-level log10 MSE ratio,10,0.1399200465758466,0.09477707404131436,0.1819672283082582
+CMA resample / bo_ard,300,secondary,mean design-level log10 MSE ratio,10,0.17598674992314906,0.1441378772793857,0.20563473168104945
+CMA resample / bo_iso_pool,300,secondary,mean design-level log10 MSE ratio,10,0.10425201275848703,0.05962918681396777,0.14535113634526048
+CMA project / bo_iso,300,secondary,mean design-level log10 MSE ratio,10,0.11595698041690872,0.05763489431868635,0.16886669451959657
+CMA project / bo_ard,300,secondary,mean design-level log10 MSE ratio,10,0.1520236837642112,0.11806454965290818,0.1865649746074136
+CMA project / bo_iso_pool,300,secondary,mean design-level log10 MSE ratio,10,0.08028894659954915,0.04799615416369066,0.11270132893635229

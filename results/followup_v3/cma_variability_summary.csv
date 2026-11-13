@@ -1,0 +1,37 @@
+block,method,handler,calls,comparison,design_groups,mean_absolute_log10_ratio
+battery_ball,cma_diag,resample,100,I vs I (independent searches),10,0.2184375977308642
+battery_ball,cma_diag,resample,100,Q202 vs I,10,0.2654082248426525
+battery_ball,cma_diag,resample,100,Q303 vs I,10,0.26227556396968066
+battery_ball,cma_diag,resample,300,I vs I (independent searches),10,0.061461228544534764
+battery_ball,cma_diag,resample,300,Q202 vs I,10,0.11735578445929684
+battery_ball,cma_diag,resample,300,Q303 vs I,10,0.13772748116612124
+battery_ball,cma_full,resample,100,I vs I (independent searches),10,0.21817655777630568
+battery_ball,cma_full,resample,100,Q202 vs I,10,0.19046737280866313
+battery_ball,cma_full,resample,100,Q303 vs I,10,0.21417475675900605
+battery_ball,cma_full,resample,300,I vs I (independent searches),10,0.09488164870542357
+battery_ball,cma_full,resample,300,Q202 vs I,10,0.09126247517438656
+battery_ball,cma_full,resample,300,Q303 vs I,10,0.10179246668105853
+battery_boundary,cma_diag,project,100,I vs I (independent searches),10,0.31839319611287703
+battery_boundary,cma_diag,project,100,Q202 vs I,10,0.26217665302989407
+battery_boundary,cma_diag,project,100,Q303 vs I,10,0.2750392988298672
+battery_boundary,cma_diag,project,300,I vs I (independent searches),10,0.1936730434083244
+battery_boundary,cma_diag,project,300,Q202 vs I,10,0.2188936020593067
+battery_boundary,cma_diag,project,300,Q303 vs I,10,0.2156356816783312
+battery_boundary,cma_diag,resample,100,I vs I (independent searches),10,0.24466039075985738
+battery_boundary,cma_diag,resample,100,Q202 vs I,10,0.2190749886589262
+battery_boundary,cma_diag,resample,100,Q303 vs I,10,0.20858454180384517
+battery_boundary,cma_diag,resample,300,I vs I (independent searches),10,0.16217606803904946
+battery_boundary,cma_diag,resample,300,Q202 vs I,10,0.19678282039038653
+battery_boundary,cma_diag,resample,300,Q303 vs I,10,0.16336938723704364
+battery_boundary,cma_full,project,100,I vs I (independent searches),10,0.2254435863388625
+battery_boundary,cma_full,project,100,Q202 vs I,10,0.21215491136345013
+battery_boundary,cma_full,project,100,Q303 vs I,10,0.1825476537948711
+battery_boundary,cma_full,project,300,I vs I (independent searches),10,0.1304651464101733
+battery_boundary,cma_full,project,300,Q202 vs I,10,0.16536085152204555
+battery_boundary,cma_full,project,300,Q303 vs I,10,0.17503674172704248
+battery_boundary,cma_full,resample,100,I vs I (independent searches),10,0.2497397737416108
+battery_boundary,cma_full,resample,100,Q202 vs I,10,0.22562537781476144
+battery_boundary,cma_full,resample,100,Q303 vs I,10,0.20068049900282228
+battery_boundary,cma_full,resample,300,I vs I (independent searches),10,0.13223517512758234
+battery_boundary,cma_full,resample,300,Q202 vs I,10,0.13459182624486143
+battery_boundary,cma_full,resample,300,Q303 vs I,10,0.15745061681535316

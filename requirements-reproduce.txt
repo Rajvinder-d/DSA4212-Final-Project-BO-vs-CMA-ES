@@ -1,0 +1,6 @@
+# Install this project's dependencies, constrained to the recorded environment.
+# Unlike installing the entire macOS freeze, this permits platform-specific
+# transitive dependencies to be selected by pip. JAX is optional (see README).
+-c requirements-lock.txt
+-e .[test]
+filelock

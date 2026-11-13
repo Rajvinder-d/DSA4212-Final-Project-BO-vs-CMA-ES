@@ -1,0 +1,106 @@
+% Report bibliography and supporting implementation sources. Reading status is in
+% docs/LITERATURE_REVIEW.md. Inclusion does not establish student reading.
+% Numbered report mapping: 1 frazier2018tutorial; 2 hansen2016tutorial;
+% 3 thierybrief; 4 calce; 5 pi2024battery; 6 tu2024battery;
+% 7 rasmussen2006gpml; 8 tian2017identification; 9 ament2023logei;
+% 10 balandat2020botorch; 11 hansen2016coco; 12 grandjean2017identifiability;
+% 13 eriksson2019turbo; 14 santoni2024comparison. Other entries support repository documentation.
+@misc{thierybrief,
+  author = {Thiéry, Alexandre},
+  title = {Bayesian optimisation versus evolutionary strategies},
+  howpublished = {DSA4212 project brief},
+  url = {https://alexxthiery.github.io/teaching/bo-vs-es/bo-vs-es.html},
+  note = {Accessed 12 November 2026}
+}
+@misc{pi2024battery,
+  author = {Pi, Jianzong and da Silva, Samuel Filgueira and Ozkan, Mehmet Fatih and Gupta, Abhishek and Canova, Marcello},
+  title = {Parameter Identification for Electrochemical Models of Lithium-Ion Batteries Using Bayesian Optimization},
+  year = {2024}, eprint = {2405.10750}, archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2405.10750}
+}
+@inproceedings{tu2024battery,
+  author = {Tu, Hao and Lin, Xinfan and Wang, Yebin and Fang, Huazhen},
+  title = {System Identification for Lithium-Ion Batteries with Nonlinear Coupled Electro-Thermal Dynamics via Bayesian Optimization},
+  booktitle = {American Control Conference}, year = {2024},
+  url = {https://arxiv.org/abs/2405.20219}
+}
+@inproceedings{balandat2020botorch,
+  author = {Balandat, Maximilian and Karrer, Brian and Jiang, Daniel R. and Daulton, Samuel and Letham, Benjamin and Wilson, Andrew Gordon and Bakshy, Eytan},
+  title = {BoTorch: A Framework for Efficient Monte-Carlo Bayesian Optimization},
+  booktitle = {Advances in Neural Information Processing Systems}, year = {2020},
+  url = {https://arxiv.org/abs/1910.06403}
+}
+@book{rasmussen2006gpml,
+  author = {Rasmussen, Carl Edward and Williams, Christopher K. I.},
+  title = {Gaussian Processes for Machine Learning},
+  publisher = {MIT Press}, year = {2006},
+  url = {https://gaussianprocess.org/gpml/chapters/RW4.pdf}
+}
+@misc{frazier2018tutorial,
+  author = {Frazier, Peter I.}, title = {A Tutorial on Bayesian Optimization},
+  year = {2018}, eprint = {1807.02811}, archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/1807.02811}
+}
+@misc{hansen2016tutorial,
+  author = {Hansen, Nikolaus}, title = {The CMA Evolution Strategy: A Tutorial},
+  year = {2016}, note = {Version 2, revised 2023},
+  eprint = {1604.00772}, archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/1604.00772}
+}
+@misc{ament2023logei,
+  author = {Ament, Sebastian and Daulton, Samuel and Eriksson, David and Balandat, Maximilian and Bakshy, Eytan},
+  title = {Unexpected Improvements to Expected Improvement for Bayesian Optimization},
+  year = {2023}, howpublished = {Advances in Neural Information Processing Systems},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/419f72cbd568ad62183f8132a3605a2a-Paper-Conference.pdf}
+}
+@misc{eriksson2019turbo,
+  author = {Eriksson, David and Pearce, Michael and Gardner, Jacob R. and Turner, Ryan and Poloczek, Matthias},
+  title = {Scalable Global Optimization via Local Bayesian Optimization},
+  year = {2019}, eprint = {1910.01739}, archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/1910.01739}
+}
+@misc{hansen2016coco,
+  author = {Hansen, Nikolaus and Auger, Anne and Ros, Raymond and Mersmann, Olaf and Tušar, Tea and Brockhoff, Dimo},
+  title = {COCO: A Platform for Comparing Continuous Optimizers in a Black-Box Setting},
+  year = {2016}, eprint = {1603.08785}, archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/1603.08785}
+}
+@misc{tian2017identification,
+  author = {Tian, Ning and Wang, Yebin and Chen, Jian and Fang, Huazhen},
+  title = {On Parameter Identification of an Equivalent Circuit Model for Lithium-Ion Batteries},
+  year = {2017}, url = {https://www.merl.com/publications/docs/TR2017-123.pdf}
+}
+@article{grandjean2017identifiability,
+  author = {Grandjean, Thomas R. B. and McGordon, Andrew and Jennings, Paul A.},
+  title = {Structural Identifiability of Equivalent Circuit Models for Li-Ion Batteries},
+  journal = {Energies}, year = {2017}, volume = {10}, number = {1}, pages = {90},
+  url = {https://www.mdpi.com/1996-1073/10/1/90}
+}
+@misc{calce,
+  author = {{CALCE, University of Maryland}}, title = {Battery Research Data},
+  url = {https://calce.umd.edu/data}, note = {Selected archives and SHA256 hashes recorded in the repository}
+}
+@misc{pycma,
+  title = {pycma options documentation},
+  url = {https://cma-es.github.io/apidocs-pycma/cma.options_parameters.html},
+  note = {Implementation pinned to pycma 4.5.0; installed source reviewed}
+}
+@misc{botorch,
+  title = {BoTorch acquisition optimisation documentation},
+  url = {https://botorch.readthedocs.io/en/stable/optim.html},
+  note = {Exact installed version recorded in the environment lock and manifests}
+}
+@misc{cmapractical,
+  author = {Hansen, Nikolaus},
+  title = {CMA-ES Source Code: Practical Hints},
+  url = {https://cma-es.github.io/cmaes_sourcecode_page.html},
+  note = {Constraint-handling guidance consulted 12 November 2026}
+}
+
+@misc{santoni2024comparison,
+  author = {Santoni, Maria Laura and Raponi, Elena and De Leone, Renato and Doerr, Carola},
+  title = {Comparison of High-Dimensional Bayesian Optimization Algorithms on BBOB},
+  year = {2023}, note = {Version 3, revised 23 June 2024},
+  eprint = {2303.00890}, archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2303.00890}
+}

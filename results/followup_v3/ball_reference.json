@@ -1,0 +1,91 @@
+{
+  "source": "artifacts/diagnostics_v2/20261110T141950872864Z",
+  "source_sha256": "f6a068320a7d1408ec03c97070f6eb53157367f826cab5c411fef45338ce3ce2",
+  "reference": {
+    "evaluation": 1170,
+    "u": [
+      0.6409408012353214,
+      0.24543901635668647,
+      0.13549134590374368,
+      0.5704849215104495,
+      0.4302775567851864
+    ],
+    "feasible": true,
+    "norm": 0.9999975738955242,
+    "status": "ok",
+    "loss": 3.484295846328004e-05
+  },
+  "terminations": [
+    {
+      "start": 0,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 33,
+      "solver_final_norm": 1.000000000007758,
+      "termination": "solver"
+    },
+    {
+      "start": 1,
+      "success": false,
+      "message": "Counted simulator-call allocation reached",
+      "termination": "budget"
+    },
+    {
+      "start": 2,
+      "success": false,
+      "message": "Counted simulator-call allocation reached",
+      "termination": "budget"
+    }
+  ],
+  "assessments": {
+    "fuds80_rmse_v": 0.0076270945684884925,
+    "fuds50_rmse_v": 0.0060180391835631675
+  },
+  "hessian": [
+    [
+      0.09707647992053971,
+      0.006011485404910992,
+      -0.0017511241058719897,
+      0.016695784579602888,
+      -0.0021138546500480753
+    ],
+    [
+      0.006011485404910992,
+      0.0012849799180563546,
+      -0.00019976329482681443,
+      0.003731944518730306,
+      -0.0005315406203627477
+    ],
+    [
+      -0.0017511241058719897,
+      -0.00019976329482681443,
+      0.00018446821878976291,
+      -0.0002195389889225525,
+      0.00022462168900268202
+    ],
+    [
+      0.016695784579602888,
+      0.003731944518730306,
+      -0.0002195389889225525,
+      0.011839901054455851,
+      -0.0010298369033651038
+    ],
+    [
+      -0.0021138546500480753,
+      -0.0005315406203627477,
+      0.00022462168900268202,
+      -0.0010298369033651038,
+      0.0005873051377572542
+    ]
+  ],
+  "eigenvalues": [
+    8.922526266662363e-07,
+    7.220246305740753e-05,
+    0.0006522046810147618,
+    0.009495004786377938,
+    0.10075283006652214
+  ],
+  "extra_simulator_calls": 12,
+  "difference_step": 0.0001,
+  "interpretation": "Ambient local Gauss-Newton curvature at a feasible ball point; derivative trials may leave the ball; not global or constrained tangent curvature"
+}

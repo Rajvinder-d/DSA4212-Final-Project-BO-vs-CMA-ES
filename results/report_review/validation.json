@@ -1,0 +1,54 @@
+{
+  "role": "post hoc report-stage analysis; no optimisation or historical export changes",
+  "estimand": "mean_design[R_left - R_right], R=log10(rotated loss / identity loss)",
+  "design_seeds": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "orientations": [
+    404,
+    505,
+    606
+  ],
+  "contrasts": 12,
+  "design_pairs": 240,
+  "bootstrap": {
+    "resamples": 5000,
+    "seed": 4129,
+    "unit": "initial design",
+    "interval": "percentile 95%, pointwise"
+  },
+  "cma_aggregation": "pair replicate effects, then average five within each design",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1"
+  },
+  "inputs": {
+    "reports/followup_v4/rotation_pairs.csv": "e0edf27271c866406648c2e30af5df8f6acf4ce825fbae9144402db2a91cd1bb",
+    "report/analyse_rotation_contrasts.py": "dfc24b3b44924c97ee4abd5b98212419e68eb02f258ab9a98cc61cb8008357bb",
+    "src/bo_vs_es/followup_analysis.py": "36229cc96b96e8e059239e9875b259e0d727ca507a8b1195e3dc646d9067ae30",
+    "configs/experiments/followup_v4.json": "711e25fd479e3d65c2a218a0b4a853630f4b6a7a3fb94b1887ca368fb3d9935f"
+  },
+  "outputs": {
+    "rotation_method_intervals.csv": "634bba716e919754770228ce6698a3f764525d8961a1e2a89dc9316269f26074",
+    "rotation_method_pairs.csv": "8fb512e47bd1c81892840ed05f1928fa38cf13faf56ff421844cf725d1646961"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "generated_utc": "2026-11-11T18:21:02.400647+00:00",
+  "execution": "raj-windows",
+  "platform": "Windows 10 x64 (10.0.19045), AMD Ryzen 5 5500, CPU",
+  "python": "3.13.17",
+  "objective_backend": "jax",
+  "jax": {
+    "version": "0.12.0.1",
+    "jaxlib": "0.12.0.1",
+    "platform": "cpu",
+    "device_kind": "cpu",
+    "float64": true
+  },
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "torch": "2.15.0",
+    "botorch": "0.18.1",
+    "gpytorch": "1.15.2",
+    "cma": "4.5.0",
+    "openpyxl": "3.1.5"
+  },
+  "data": {
+    "source_sha256": {
+      "SP2_25C_DST.zip": "3d3a90a67574c336eca9d097a5f139aaad70e7fa3106078079da9cd11d1b3661",
+      "SP2_25C_FUDS.zip": "e2ce8e4626c4263cb8758c9488cec66d31c04a9d11465c14e668428cead1e053",
+      "SP3_25C_LC_OCV_11_16_2015.zip": "0bae869bba13c2d87faa3ae948557c47e5b4be96b93ee45970e571bfc63d58b7"
+    },
+    "processed_sha256": {
+      "dst80.csv": "71a9efd866301cf1090bbdc8ca0ae7475050fc1ad24c4895a9e85d5ebaa436b2",
+      "fuds50.csv": "dee9cb1b25625da9c71ab781238c4a8848caa1f72fa3e0948ded051b66e315f2",
+      "fuds80.csv": "4f1de37e5a4ad631a46655f784c975703fa5fdddaa319d2fa3abe5174e5d11ae",
+      "ocv.csv": "a984761dd01930e50415f6e96e4dc5b0b99338bdd3937777a73458013d7786e3"
+    },
+    "matches_v1_delivery_audit": true,
+    "line_endings": "Processed CSVs regenerated on Windows then LF-normalised to the recorded macOS/Arch bytes."
+  },
+  "tests": {
+    "full_suite_passed": 49,
+    "v5_and_v5_jax_passed": 13,
+    "jax_numpy_parity_11_points": {
+      "status": "passed",
+      "numpy_calls": 11,
+      "jax_calls": 11,
+      "max_absolute_loss_gap": 2.6020852139652106e-18,
+      "rtol": 1e-10,
+      "atol": 1e-12,
+      "seconds": 0.1557769000000917
+    }
+  },
+  "execution_record": {
+    "collection": "artifacts/boundary-v5-windows-jax",
+    "planned_runs": 100,
+    "complete_runs": 100,
+    "complete_design_groups": 10,
+    "excluded_design_groups": 0,
+    "counted_search_calls": 30000,
+    "assessment_calls": 400,
+    "all_recorded_search_calls": 30262,
+    "objective_setup_calls": 44,
+    "total_recorded_invocation_s": 8154.7109083,
+    "session_limit_s": 10800.0,
+    "started_utc": "2026-11-11T15:55:07.646084+00:00",
+    "finished_utc": "2026-11-11T18:11:04.378381+00:00",
+    "invocations": [
+      {
+        "status": "interrupted",
+        "elapsed_s": 0.6359975000000304,
+        "started_utc": "2026-11-11T15:53:12.402126+00:00",
+        "finished_utc": "2026-11-11T15:54:37.418359+00:00",
+        "note": "Process stopped externally by user; 1 completed trajectory retained and reusable. Record inspected, not deleted."
+      },
+      {
+        "status": "complete",
+        "elapsed_s": 8154.0749108,
+        "started_utc": "2026-11-11T15:55:07.646084+00:00",
+        "finished_utc": "2026-11-11T18:11:04.378381+00:00",
+        "note": null
+      }
+    ],
+    "run_directories": 101,
+    "unclosed_partial_attempts": [
+      {
+        "run_id": "cd143d69e74ad9c1",
+        "search_calls": 262
+      }
+    ]
+  },
+  "analysis_verification": {
+    "collection_sha256": "d585c4fb72b5c0245413f5c4350c679d67d2bdcf029563421cf6bc237c3e7370",
+    "analysis_sha256": "1d7f16643dc0852237ead367b96e990d5e4ab329e281dbfb7c14c089e5f05be5",
+    "contrast_source_sha256": "89829659a5e788403ccd4f0942c7a9cab2d4b5b4127c20af400f7c3f24defc9f",
+    "planned_runs": 100,
+    "completed_runs": 100,
+    "complete_design_groups": 10,
+    "excluded_design_groups": 0,
+    "all_recorded_search_calls": 30262,
+    "objective_setup_calls": 44,
+    "total_recorded_invocation_s": 8154.7109083,
+    "plots": null,
+    "recorded_assessment_calls": 400,
+    "attempts_without_assessment_accounting": 1,
+    "status": "complete",
+    "outputs": {
+      "attempts.csv": "f4c40cf0a63a16e88e4d92b671f624c052690c451cba2ecfd41545abb5bfa690",
+      "checkpoints.csv": "8a3146b1e4d14fe43183994a53345a4af81214173b1e3f7c4e38901fe246eb32",
+      "contrasts.csv": "de8a6b4cfad75f274e878658d3ecd80bd431ab4dfceeec6352d2fba2040f65ee",
+      "coverage.csv": "8debf6b53f1819f8da9ed0538125223ff1cf3fc5182a5b2136e026d83c8b85b1",
+      "run_status.csv": "95b90f4cbafcac757a03c64ac46552bc638d63a2bf70035fe4cb3e9076c6f22b",
+      "targets.csv": "68084954b2de70e0692dd11709d7b0f55eb37ab4bdd5c089c92bc0e2a3d4505d",
+      "target_summary.csv": "a60aae8df5d9f8222d10384779c08140aeed477410d39303cf2ec5c039bb76d3"
+    },
+    "interpretation": "Primary contrast is projection/resampling at 100 calls; other contrasts are secondary. Intervals resample initial designs. Excluded groups may bias comparisons; conditional target times must accompany hit rates and coverage."
+  },
+  "status": "execution complete; scientific interpretation pending",
+  "interpretation": "Execution, data provenance and run accounting are verified. The unclosed partial attempt is retained in resource accounting and is not one of the 100 planned trajectories. No scientific contrast is interpreted in this record; v5 results await independent analysis. Agent execution does not establish student understanding."
+}

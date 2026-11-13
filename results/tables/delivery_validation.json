@@ -1,0 +1,42 @@
+{
+  "verified_runs": 84,
+  "search_calls": 8400,
+  "assessment_calls": 108,
+  "additional_simulator_calls": 0,
+  "matched_initial_designs": 4,
+  "notebooks": [
+    {
+      "file": "notebooks/01_data_inspection_and_preparation.ipynb",
+      "executed_code_cells": 5,
+      "sha256": "ecfdf7075ebfa064d702a4ecaed8220101131d9c5d98cfbf114c2beddd1bedd9"
+    },
+    {
+      "file": "notebooks/02_battery_model_and_geometry.ipynb",
+      "executed_code_cells": 6,
+      "sha256": "d0395b614a72999c27d17b1c989545407b5745bd82962d75cd25b51b2875975a"
+    },
+    {
+      "file": "notebooks/03_pilot_experiments.ipynb",
+      "executed_code_cells": 6,
+      "sha256": "4f27ecd4cdf93407523895310314e445a76ebe41e8890bae8a93ce331fdd60a5"
+    },
+    {
+      "file": "notebooks/04_results_and_interpretation.ipynb",
+      "executed_code_cells": 9,
+      "sha256": "d3a108df223ce5e2b23baac93978dc83793a02ae4d0d12cd044c43b5d3e6d537"
+    }
+  ],
+  "tests_passed": 15,
+  "main_configured_runs": 2360,
+  "main_executed": false,
+  "code_sha256": "6d315686aa612965a4c63f8fa91136e0cd2cf31f0c3ba1f3fe42601160ebbfe3",
+  "data_sha256": {
+    "dst80.csv": "71a9efd866301cf1090bbdc8ca0ae7475050fc1ad24c4895a9e85d5ebaa436b2",
+    "fuds50.csv": "dee9cb1b25625da9c71ab781238c4a8848caa1f72fa3e0948ded051b66e315f2",
+    "fuds80.csv": "4f1de37e5a4ad631a46655f784c975703fa5fdddaa319d2fa3abe5174e5d11ae",
+    "ocv.csv": "a984761dd01930e50415f6e96e4dc5b0b99338bdd3937777a73458013d7786e3"
+  },
+  "collection_sha256": "55d5cc7c05a72ca12c00645e168f1b9a8dbb55473351d9f3e1e3875308fab6cc",
+  "pilot_search_seconds": 867.2470189549786,
+  "figure_count": 12
+}

@@ -1,0 +1,390 @@
+{
+  "hashes_verified": 12,
+  "coverage": {
+    "planned": 280,
+    "completed": 279,
+    "complete_designs": 19,
+    "excluded_design": 21
+  },
+  "failures": [
+    {
+      "initial_design_seed": "21",
+      "method": "bo_iso",
+      "handler": "none",
+      "search_replicate": "0",
+      "status": "failed",
+      "run_id": "ca417cb2e45606ac"
+    }
+  ],
+  "recorded_search_calls": 83866,
+  "recorded_assessment_calls": 1116,
+  "contrasts": [
+    {
+      "contrast": "CMA projection / CMA resampling",
+      "calls": 100,
+      "role": "primary",
+      "designs": 19,
+      "estimate": 0.7437553144899501,
+      "low": 0.6246540554738734,
+      "high": 0.8942637337064235,
+      "designs_favouring_numerator": 16
+    },
+    {
+      "contrast": "CMA resample / bo_iso",
+      "calls": 100,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 2.5212078403673064,
+      "low": 2.085033858269141,
+      "high": 3.0327638224616345,
+      "designs_favouring_numerator": 1
+    },
+    {
+      "contrast": "CMA resample / bo_ard",
+      "calls": 100,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 3.9707332004080125,
+      "low": 3.498136805586061,
+      "high": 4.465589200609749,
+      "designs_favouring_numerator": 0
+    },
+    {
+      "contrast": "CMA resample / bo_iso_pool",
+      "calls": 100,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 2.543157040798154,
+      "low": 2.228969067707256,
+      "high": 2.906518473704356,
+      "designs_favouring_numerator": 0
+    },
+    {
+      "contrast": "CMA project / bo_iso",
+      "calls": 100,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 1.875161730206914,
+      "low": 1.52649666247109,
+      "high": 2.3382647296949823,
+      "designs_favouring_numerator": 1
+    },
+    {
+      "contrast": "CMA project / bo_ard",
+      "calls": 100,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 2.9532539202251473,
+      "low": 2.461899595449202,
+      "high": 3.6313001338379856,
+      "designs_favouring_numerator": 0
+    },
+    {
+      "contrast": "CMA project / bo_iso_pool",
+      "calls": 100,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 1.8914865646761618,
+      "low": 1.4995784428978456,
+      "high": 2.4201955882821236,
+      "designs_favouring_numerator": 2
+    },
+    {
+      "contrast": "CMA projection / CMA resampling",
+      "calls": 300,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 0.889862576790272,
+      "low": 0.8194269912450258,
+      "high": 0.9581047304295405,
+      "designs_favouring_numerator": 13
+    },
+    {
+      "contrast": "CMA resample / bo_iso",
+      "calls": 300,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 1.537209417545216,
+      "low": 1.4005341372301985,
+      "high": 1.6919430221138694,
+      "designs_favouring_numerator": 1
+    },
+    {
+      "contrast": "CMA resample / bo_ard",
+      "calls": 300,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 1.6616087954080536,
+      "low": 1.5732200267469691,
+      "high": 1.7854823603224605,
+      "designs_favouring_numerator": 0
+    },
+    {
+      "contrast": "CMA resample / bo_iso_pool",
+      "calls": 300,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 1.4019728349499359,
+      "low": 1.317966197733127,
+      "high": 1.509980347006617,
+      "designs_favouring_numerator": 0
+    },
+    {
+      "contrast": "CMA project / bo_iso",
+      "calls": 300,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 1.3679051333630592,
+      "low": 1.294614642516542,
+      "high": 1.431372239205589,
+      "designs_favouring_numerator": 1
+    },
+    {
+      "contrast": "CMA project / bo_ard",
+      "calls": 300,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 1.4786034842991904,
+      "low": 1.4061706202353568,
+      "high": 1.5508635268068895,
+      "designs_favouring_numerator": 0
+    },
+    {
+      "contrast": "CMA project / bo_iso_pool",
+      "calls": 300,
+      "role": "secondary",
+      "designs": 19,
+      "estimate": 1.2475631594985126,
+      "low": 1.1733392566754433,
+      "high": 1.3237842037381258,
+      "designs_favouring_numerator": 2
+    }
+  ],
+  "handler_sensitivity": [
+    {
+      "calls": 100,
+      "designs": 20,
+      "role": "post hoc handler-only completeness sensitivity",
+      "estimate": 0.752867651076211,
+      "low": 0.6370561545488675,
+      "high": 0.8948350641155464
+    },
+    {
+      "calls": 300,
+      "designs": 20,
+      "role": "post hoc handler-only completeness sensitivity",
+      "estimate": 0.8921432841918666,
+      "low": 0.8234709827049403,
+      "high": 0.9571092986900968
+    }
+  ],
+  "medians": [
+    {
+      "method": "bo_iso",
+      "handler": "none",
+      "calls": 100,
+      "runs": 19,
+      "calibration_rmse_v": 0.0064530283043218615,
+      "search_s": 59.747078899999906,
+      "objective_s": 0.2184981000100379,
+      "boundary_fraction": 0.73,
+      "recommendation_margin": 0.0,
+      "fuds80_rmse_v": 0.00725163137569316,
+      "fuds50_rmse_v": 0.007082609603845959
+    },
+    {
+      "method": "bo_iso",
+      "handler": "none",
+      "calls": 300,
+      "runs": 19,
+      "calibration_rmse_v": 0.004764425390588735,
+      "search_s": 401.45142289999785,
+      "objective_s": 0.658408600014809,
+      "boundary_fraction": 0.9033333333333333,
+      "recommendation_margin": 0.0,
+      "fuds80_rmse_v": 0.005708496646656535,
+      "fuds50_rmse_v": 0.0053822426021564755
+    },
+    {
+      "method": "bo_ard",
+      "handler": "none",
+      "calls": 100,
+      "runs": 19,
+      "calibration_rmse_v": 0.0051328029355754414,
+      "search_s": 78.16125859999738,
+      "objective_s": 0.21801920000871178,
+      "boundary_fraction": 0.79,
+      "recommendation_margin": 0.0,
+      "fuds80_rmse_v": 0.006031499287756402,
+      "fuds50_rmse_v": 0.005695997001650819
+    },
+    {
+      "method": "bo_ard",
+      "handler": "none",
+      "calls": 300,
+      "runs": 19,
+      "calibration_rmse_v": 0.004729053015585716,
+      "search_s": 428.26198360000126,
+      "objective_s": 0.6548854999709874,
+      "boundary_fraction": 0.9066666666666666,
+      "recommendation_margin": 0.0,
+      "fuds80_rmse_v": 0.005699615493045235,
+      "fuds50_rmse_v": 0.005229620393224557
+    },
+    {
+      "method": "bo_iso_pool",
+      "handler": "none",
+      "calls": 100,
+      "runs": 19,
+      "calibration_rmse_v": 0.006409747226649431,
+      "search_s": 6.07030620000296,
+      "objective_s": 0.21747850001702318,
+      "boundary_fraction": 0.69,
+      "recommendation_margin": 0.0,
+      "fuds80_rmse_v": 0.007417258074859606,
+      "fuds50_rmse_v": 0.007113827064226309
+    },
+    {
+      "method": "bo_iso_pool",
+      "handler": "none",
+      "calls": 300,
+      "runs": 19,
+      "calibration_rmse_v": 0.005151869755687903,
+      "search_s": 52.031917799999064,
+      "objective_s": 0.6544161999845528,
+      "boundary_fraction": 0.84,
+      "recommendation_margin": 0.0,
+      "fuds80_rmse_v": 0.00580991518882699,
+      "fuds50_rmse_v": 0.005192531289903668
+    },
+    {
+      "method": "cma_full",
+      "handler": "resample",
+      "calls": 100,
+      "runs": 95,
+      "calibration_rmse_v": 0.010219555876864695,
+      "search_s": 0.30373099999997066,
+      "objective_s": 0.21192929997778265,
+      "boundary_fraction": 0.0,
+      "recommendation_margin": 0.08849169048860495,
+      "fuds80_rmse_v": 0.009045953620706659,
+      "fuds50_rmse_v": 0.010085200269922972
+    },
+    {
+      "method": "cma_full",
+      "handler": "resample",
+      "calls": 300,
+      "runs": 95,
+      "calibration_rmse_v": 0.006049526389594861,
+      "search_s": 0.8963541999983136,
+      "objective_s": 0.6360131000110414,
+      "boundary_fraction": 0.0,
+      "recommendation_margin": 0.029874972491754748,
+      "fuds80_rmse_v": 0.0073617715667417104,
+      "fuds50_rmse_v": 0.006731971665065041
+    },
+    {
+      "method": "cma_full",
+      "handler": "project",
+      "calls": 100,
+      "runs": 95,
+      "calibration_rmse_v": 0.008361914512701775,
+      "search_s": 0.28795269999682205,
+      "objective_s": 0.2120963999768719,
+      "boundary_fraction": 0.4,
+      "recommendation_margin": 1.1102230246251565e-16,
+      "fuds80_rmse_v": 0.00875842045722369,
+      "fuds50_rmse_v": 0.0089506789083702
+    },
+    {
+      "method": "cma_full",
+      "handler": "project",
+      "calls": 300,
+      "runs": 95,
+      "calibration_rmse_v": 0.00594888345174216,
+      "search_s": 0.8707163999933982,
+      "objective_s": 0.6359404000031645,
+      "boundary_fraction": 0.3566666666666667,
+      "recommendation_margin": 1.1102230246251565e-16,
+      "fuds80_rmse_v": 0.007309205200626451,
+      "fuds50_rmse_v": 0.006550854587014318
+    },
+    {
+      "method": "random",
+      "handler": "none",
+      "calls": 100,
+      "runs": 19,
+      "calibration_rmse_v": 0.01455165514224945,
+      "search_s": 0.2768872000015108,
+      "objective_s": 0.21216489993094,
+      "boundary_fraction": 0.0,
+      "recommendation_margin": 0.0771041202611169,
+      "fuds80_rmse_v": 0.013664931307348855,
+      "fuds50_rmse_v": 0.015022728200902018
+    },
+    {
+      "method": "random",
+      "handler": "none",
+      "calls": 300,
+      "runs": 19,
+      "calibration_rmse_v": 0.01253125521908104,
+      "search_s": 0.840250900000683,
+      "objective_s": 0.6361601999815321,
+      "boundary_fraction": 0.0,
+      "recommendation_margin": 0.08516486754351316,
+      "fuds80_rmse_v": 0.012044239044900294,
+      "fuds50_rmse_v": 0.01279935222881613
+    }
+  ],
+  "baseline_endpoint_comparison": [
+    {
+      "method": "bo_iso_pool",
+      "calls": 100,
+      "pairs": 19,
+      "close": 19,
+      "median_absolute_relative_difference": 3.3306690738754696e-16,
+      "maximum_absolute_relative_difference": 8.881784197001252e-16
+    },
+    {
+      "method": "cma_full",
+      "calls": 100,
+      "pairs": 95,
+      "close": 5,
+      "median_absolute_relative_difference": 0.4386432955896489,
+      "maximum_absolute_relative_difference": 3.763685986131999
+    },
+    {
+      "method": "cma_full",
+      "calls": 300,
+      "pairs": 95,
+      "close": 0,
+      "median_absolute_relative_difference": 0.17840924729860042,
+      "maximum_absolute_relative_difference": 5.86787488229758
+    },
+    {
+      "method": "bo_iso",
+      "calls": 100,
+      "pairs": 19,
+      "close": 0,
+      "median_absolute_relative_difference": 2.068927376752683e-06,
+      "maximum_absolute_relative_difference": 0.34570448108615537
+    },
+    {
+      "method": "random",
+      "calls": 100,
+      "pairs": 19,
+      "close": 19,
+      "median_absolute_relative_difference": 0.0,
+      "maximum_absolute_relative_difference": 2.220446049250313e-16
+    },
+    {
+      "method": "bo_ard",
+      "calls": 100,
+      "pairs": 19,
+      "close": 0,
+      "median_absolute_relative_difference": 0.036152924953225085,
+      "maximum_absolute_relative_difference": 0.7140202691968203
+    }
+  ],
+  "scope": "Saved exports only; no raw parameter histories or execution manifest available for local audit. Initial-design construction is reported verified by the execution-side exporter, not independently verified against historical V4 raw point arrays. Cross-machine endpoint agreement is assessed at relative tolerance 1e-10, absolute tolerance 1e-14; it does not establish path agreement."
+}

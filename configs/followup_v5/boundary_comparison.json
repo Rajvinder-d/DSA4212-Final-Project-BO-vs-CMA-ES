@@ -1,0 +1,18 @@
+{
+  "id": "boundary-comparison-v5",
+  "protocol": "configs/protocols/rotation_battery_v1.json",
+  "initial_design_seeds": [30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
+  "previously_inspected_seeds": [0, 1, 2, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+  "search_seed_namespace": 5107,
+  "cma_search_replicates": [0, 1, 2],
+  "n_init": 20,
+  "budget": 300,
+  "checkpoints": [100, 300],
+  "methods": ["bo_iso", "bo_ard", "bo_iso_pool", "random", "cma_full"],
+  "cma_handlers": ["resample", "project"],
+  "pool": {"interior": 2048, "surface": 2048, "chunk_size": 256},
+  "targets_rmse_v": [0.01, 0.006],
+  "bootstrap_seed": 5129,
+  "bootstrap_resamples": 10000,
+  "status": "Prepared, unexecuted and untested; prospective test on the same battery objective"
+}
