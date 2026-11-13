@@ -148,3 +148,5 @@ Canvas submission remain the authors' final steps.
 ## AI disclosure
 
 AI agents were used as tools, in line with the course's AI-assistance guidelines, to generate figures, assist with literature searches for relevant articles, and assist with coding.
+
+Reproducibility of the experiments was verified by the team.
